@@ -10,13 +10,13 @@ docker run -d \
   --network lewio-network \
   --env-file /root/lewio-deploy/.env \
   -p 8000:8000 \
-  erp_sabordaterra-backend:latest
+  distribuidoradealimentos-backend:latest
 
 docker run -d \
   --name lewio-frontend \
   --network lewio-network \
   -p 3000:3000 \
-  erp_sabordaterra-frontend:latest
+  distribuidoradealimentos-frontend:latest
 
 docker run -d \
   --name lewio-nginx \

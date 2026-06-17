@@ -1,5 +1,4 @@
 import { Box, Typography } from "@mui/material";
-import LogoSaborDaTerra from "../../assets/sabordaterralogo.png";
 import RedirectCard from "../../components/Cards/RedirectCard/RedirectCard";
 import { useMemo } from "react";
 import { usePermissions } from "../../hooks/auth/usePermissions";
@@ -40,11 +39,25 @@ const MenuRedirect = () => {
         minHeight: "60vh",
       }}
     >
-      <img
-        src={LogoSaborDaTerra}
-        alt="Logo Sabor da Terra"
-        style={{ width: "20%", minWidth: 120, marginBottom: "1rem" }}
-      />
+      <Box
+        aria-label="Distribuidora de Alimentos"
+        sx={{
+          width: 88,
+          height: 88,
+          mb: 1,
+          borderRadius: "22px",
+          bgcolor: "#8542F9",
+          color: "#fff",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          fontFamily: "Rhodium Libre",
+          fontSize: 30,
+          fontWeight: 700,
+        }}
+      >
+        DA
+      </Box>
 
       <Box sx={{ mt: 2 }}>
         <Typography
@@ -53,7 +66,7 @@ const MenuRedirect = () => {
           gutterBottom
           textAlign="center"
         >
-          Seja Bem-Vindo ao Sabor da Terra!
+          Seja bem-vindo à Distribuidora de Alimentos!
         </Typography>
         <Typography variant="body2" color="text.secondary" textAlign="center">
           Use o menu lateral para navegar entre os módulos.

@@ -4,7 +4,13 @@ from sqlalchemy.future import select
 from sqlalchemy.exc import IntegrityError, DBAPIError
 from sqlalchemy.orm import selectinload
 
-from backend.app.core.database import local_engine, async_local_session_maker, Base
+from backend.app.core.database import (
+    Base,
+    async_local_session_maker,
+    local_engine,
+    origem_engine,
+)
+from backend.app.models.origem import OrigemBase
 from backend.app.repositories.user import UserCRUD
 from backend.app.schemas.users import UserCreate
 from backend.app.models.roles import Role, Permission
@@ -71,16 +77,18 @@ async def seed_formas_pagamento():
 
 async def create_tables():
     """
-    Cria todas as tabelas no banco de dados que herdam da classe Base.
+    Cria todas as tabelas nos bancos configurados.
     Se tabelas/constraints já existirem (ex.: banco pré-populado), ignora o erro e continua.
     """
     import backend.app.models  # noqa: F401 — garante registro de todos os modelos em Base.metadata
 
-    logger.info("Tentando criar tabelas no banco de dados...")
+    logger.info("Tentando criar tabelas nos bancos de dados...")
     try:
         async with local_engine.begin() as conn:
             await conn.run_sync(Base.metadata.create_all)
-        logger.info("Criação de tabelas concluída.")
+        async with origem_engine.begin() as conn:
+            await conn.run_sync(OrigemBase.metadata.create_all)
+        logger.info("Criação de tabelas concluída nos bancos local e origem.")
     except DBAPIError as e:
         err_msg = (str(e.orig) if e.orig else "") + " " + str(e)
         if "already exists" in err_msg.lower():

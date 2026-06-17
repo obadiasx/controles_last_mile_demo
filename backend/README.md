@@ -1,11 +1,11 @@
-# ERP Sabor da Terra
-Api rest python fast api para backend do ERP Sabor da Terra
+# Distribuidora de Alimentos
+API REST em Python/FastAPI para backend da Distribuidora de Alimentos.
 
 ## Execução
 
 Como executar a partir da linha de comando:
 ```
-cd \...\ERP_SabordaTerra
+cd \...\distribuidoradealimentos
 .venv\Scripts\Activate.bat
 python -r backend.main
 ```

@@ -45,7 +45,7 @@ def renderizar_template_pedido_fornecedor(
     if (observacao or "").strip():
         linhas.extend(["", f"Observacao adicional (financeiro): {observacao.strip()}"])
 
-    linhas.extend(["", "Mensagem gerada automaticamente pelo ERP Sabor da Terra."])
+    linhas.extend(["", "Mensagem gerada automaticamente pela Distribuidora de Alimentos."])
     return "\n".join(linhas)
 
 
@@ -110,7 +110,7 @@ async def enviar_pedido_fornecedor_por_email_com_itens_carregados(
         )
 
     assunto = (
-        f"[ERP Sabor da Terra] Pedido de compra - {fornecedor.fantasia} - {solicitacao.data}"
+        f"[Distribuidora de Alimentos] Pedido de compra - {fornecedor.fantasia} - {solicitacao.data}"
     )
     corpo = renderizar_template_pedido_fornecedor(
         solicitacao=solicitacao,

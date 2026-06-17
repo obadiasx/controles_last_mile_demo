@@ -8,7 +8,6 @@ import {
   Typography,
 } from "@mui/material";
 import { Visibility, VisibilityOff } from "@mui/icons-material";
-import LogoSaborDaTerra from "../../assets/sabordaterralogo.png";
 import { useState } from "react";
 import { Controller, useForm } from "react-hook-form";
 import type { ILoginForm } from "../../interfaces/ILogin";
@@ -57,11 +56,26 @@ const Login = () => {
           }}
         >
           <CardContent sx={{ textAlign: "center" }}>
-            <img
-              src={LogoSaborDaTerra}
-              alt="Logo Sabor da Terra"
-              style={{ width: "60%", marginBottom: "5%" }}
-            />
+            <Box
+              aria-label="Distribuidora de Alimentos"
+              sx={{
+                width: 96,
+                height: 96,
+                mx: "auto",
+                mb: 2,
+                borderRadius: "24px",
+                bgcolor: "#8542F9",
+                color: "#fff",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                fontFamily: "Rhodium Libre",
+                fontSize: 32,
+                fontWeight: 700,
+              }}
+            >
+              DA
+            </Box>
             <Box
               sx={{ mt: 2, display: "flex", flexDirection: "column", gap: 2 }}
             >
@@ -71,7 +85,7 @@ const Login = () => {
                 component="div"
                 gutterBottom
               >
-                ERP SABOR DA TERRA
+                DISTRIBUIDORA DE ALIMENTOS
               </Typography>
 
               <form onSubmit={handleSubmit(onSubmit)}>

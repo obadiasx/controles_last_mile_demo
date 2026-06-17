@@ -19,7 +19,6 @@ import {
 } from "@mui/material";
 import { Menu as MenuIcon, Logout, Person } from "@mui/icons-material";
 import { Link, useLocation, useNavigate, Outlet } from "react-router";
-import LogoSaborDaTerra from "../../../assets/sabordaterralogo.png";
 import { AuthStore } from "../../../stores/AuthStore";
 import { usePermissions } from "../../../hooks/auth/usePermissions";
 import { MENU_ITEMS, MENU_SECTIONS } from "../../../config/menuConfig";
@@ -144,12 +143,16 @@ export default function AppLayout() {
         }}
       >
         {!collapsed && (
-          <Box
-            component="img"
-            src={LogoSaborDaTerra}
-            alt="Logo"
-            sx={{ height: 36, objectFit: "contain" }}
-          />
+          <Typography
+            sx={{
+              color: "#8542F9",
+              fontFamily: "Rhodium Libre, serif",
+              fontWeight: 700,
+              lineHeight: 1.1,
+            }}
+          >
+            Distribuidora
+          </Typography>
         )}
       </Toolbar>
       <Box sx={{ flex: 1, overflow: "auto", py: 2 }}>
@@ -189,7 +192,7 @@ export default function AppLayout() {
               fontWeight: 600,
             }}
           >
-            ERP Sabor da Terra
+            Distribuidora de Alimentos
           </Typography>
           <IconButton
             onClick={(e) => setUserMenuAnchor(e.currentTarget)}

@@ -1,5 +1,5 @@
-# ERP Sabor da Terra
-Api rest python fast api para backend do ERP Sabor da Terra
+# Distribuidora de Alimentos
+API REST em Python/FastAPI para backend da Distribuidora de Alimentos.
 
 ## Passo-a-passo para rodar local com Docker
 
