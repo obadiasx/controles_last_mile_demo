@@ -1,0 +1,1 @@
+Aqui serão estilos extras, talvez haja a utilização de styled components

@@ -1,0 +1,75 @@
+Então, o desenho anterior estava focado nisso. Quando chega a conferência, o pedido já foi feito. Que ele se adequa bem a esse contexto financeiro. O financeiro quer lá o pedido no CID, depois pega manda uma mensagem, um WhatsApp e-mail, não sei porque o fornecedor e pronto. Eu fico esperando ele entregar. Só que isso já era um problema porque vai ter pedido que está no CID, vai ter pedido que está na nossa ferramenta e a dinâmica é diferente porque o que foi comprado pelo comprador, o próprio comprador já fez uma espécie de conferência, porque o comprador é uma pessoa da empresa que tem parâmetros mais claros para fazer a compra, porque está usando aplicativo, já tem autorização e tudo mais enquanto vende fornecedor não, pode vir alguma coisa bem diferente. Dito isso, eu estava tentando adaptar aqui, mas vai ficar complicado fazer por dois caminhos, ora confere coisas que estão no seed, ora confere coisas que estão na nossa ferramenta, nossa plataforma. Então eu vou dizer no próximo áudio uma sugestão e você me disse é válida, porque como fala, padroniza o processo. O processo é o seguinte, comprador. Você cria a ordem do dia lá, tal, faz aquela coisa toda tal e o comprador vai lá e pá, né? Emite o comprador vai lá no chat, onde quer que esteja e já faz tudo direitinho. Beleza, isso está feito.
+Agora quando você for fazer um pedido para o cliente, em vez de você cadastrar no CID, e aí eu vou criar aqui uma opção porque no nosso sistema, você cadastra no nosso sistema. Então vai ter lá ordens do dia e compras direto no fornecedor ou o nome que você quiser. Aí o que você faz é escolher um fornecedor, uma nova compra do fornecedor. Aí o financeiro vai lá, fala eu vou comprar, vou encomendar desse fornecedor isso, isso, isso, isso, com a mesma dinâmica lá de ordem do dia lá, compra do dia e salva. E aí esse caso é como se fosse um pedido, é como se fosse uma compra que vem do Ceagesp, que já vai ficar assim, entre aspas, baixado para ser conferido. Aí quando o conferente, quando vier a compra para o conferente, a nossa aplicação, a nossa plataforma, o conferente faz a nossa plataforma, mas ele vai enxergar os pedidos dentro da nossa plataforma e não no Seed. Aí fica totalmente invertido né, do início do projeto. E aí seria o seguinte, quando o fornecedor, quando o conferente for conferir, aí A nossa plataforma pode mostrar para ele assim, isso aqui veio do comprador nosso. Se veio do comprador nosso, as condições de conferência são aquelas que a gente já viu lá, que a gente já falou. Ele não vai mexer muita coisa, só vai verificar se aquilo que a gente já discutiu. E se vier do fornecedor externo, externo, que é esse que foi pedido direto pelo financeiro, Aí ele usa a nossa plataforma também, só que aí ele confere a unidade, confere tudo para ver se está de acordo com o pedido. No caso do CEGESP, ele não precisa conferir isso. No caso desse outro, ele precisa. Então na hora que ele abrir as conferências lá, ele vai, ele vai conseguir ver a diferença. Esse aqui vem do CEGE, esse aqui vem do nosso comprador, esse aqui foi comprado direto no fornecedor e quando for comprado direto no fornecedor, ele vai ter que conferir quantidade, essas outras coisas mais. Aí fechado isso, aí sim ele vai integrar no CID, ambos os casos. Então nunca mais vocês cadastrariam pedidos no CID, sempre pela nossa ferramenta. O que você acha? Eu não sei como você faz hoje, e esse é um adendo, eu não sei como você faz hoje, você já falou, mas eu não me lembro mais. Quando você vai fazer um pedido por um fornecedor diretamente, se você manda um e-mail ou você manda um WhatsApp. E aí a minha proposta é o seguinte, o que daria para fazer é o seguinte, quando você, esses fornecedores que você compra direto deles, você poderia para cada um desses fornecedores pegar o e-mail deles, cadastrar a nossa ferramenta, o fornecedor. E na hora que você fizer o pedido, eu vou querer isso, isso, isso, isso e passar a ferramenta, já manda um pedido por e-mail para o cara. Já pá, aí o cara já recebe. Aí você fala para ele, agora a gente vai passar por e-mail, vai passar a mandar por e-mail. Aí se o cara não tem e-mail, fala, não consegui e-mail e tal, não sei o que, então tudo bem, paciência. Aí o que dá para fazer é a ferramenta, você cadastrar, não é por e-mail, é por WhatsApp, digamos, ao invés de mandar e-mail, ele abre na tela uma caixinha de texto com texto que você copia e colar no WhatsApp do cliente, do fornecedor, né? E aí já cola a mensagem formatada e o fornecedor envia a compra. Mas de qualquer forma fica cadastrado do nosso lado e só quando chegar do nosso lado é que vai para o fornecedor. E só para concluir eu vou explicar para você porque eu pedi o seu e-mail. Porque qual que é a ideia? É integrar no CID. O pessoal do CID vai fazer essa integração? Não sei. não sei se vocês estão cobrando e para mim não faz diferença não vai mudar do meu quer dizer faz diferença assim ele vai falar a gente vai ter que testar etc e tal mas assim não impacta a lógica do nosso sistema agora se ele não tiver integrado altamente automaticamente conced né Quando o pedido for finalizado na conferência, que o conferente falar, terminei de conferir esse pedido, ele tem que, você tem que cadastrar esse pedido no CID, no CID para ele continuar o processo. Essa integração é que tem que ser automática. Então, eu pedi o seu e-mail porque eu vou fechar o processo aqui da seguinte maneira, quando todos os itens daquele pedido forem finalizados, enquanto não tiver uma integração automática com seed, supondo que eles farão de fato, a nossa ferramenta pode mandar um e-mail para você, entendeu? Concluiu, você recebe o e-mail, você abre o e-mail, vê os dados lá e digita na mão, no seed, o pedido, até o pessoal consumir a nossa API e fazer isso automaticamente no seed.
+
+
+
+*** esclarecimentos finais via whatsapp
+
+[08:49, 15/04/2026] Otniel França Sabor da Terra: Acho interessante...
+
+Confirmação e solicitação via e-mail direto pela ferramenta OK, acho válido.
+
+Todos os pedidos de compras (No Geral), pela ferramenta e ao final da conferência, serem importados pelo SIDI também acho uma boa.
+
+Imagino que para esses casos em que o pedido não passa pelo comprador externo e são direcionados diretamente para o fornecedor para entrega, a única coisa que muda é que o administrador (solicitante) fica com a função de  também preencher os detalhes da compra e finalizar para status "Comprado"...
+
+Independente de onde chegar os itens da compra (seja do Cassiano ou direto do fornecedor)... O conferente terá de vistoriar os itens, apontar se está tudo OK ou se existem inconsistências e apontar isso na ferramenta.
+
+* Itens aprovados pelo conferente ficam OK para importação no SIDI (Padrão 1 pedido SIDI por fornecedor por dia - Consolidado)
+
+* Itens inconsistentes, pendentes, ausentes, devolvidos para troca ou recusados... Voltam para (decisão) do Financeiro se gera novo pedido para dia seguinte ou se cancela a solicitação.
+[09:13, 15/04/2026] Otniel França Sabor da Terra: Ou pode ser criada essa distinção no INÍCIO do fluxo com duas opções para o solicitante (Financeiro).
+
+Dois botões:
+
+* Solicitações Comprador Externo 
+
+* Solicitações ao Fornecedor 
+
+E dentro de cada opção enquadre-se as características adequadas de inserções de informações.
+
+Para o conferente permanece o mesmo cenário.
+
+Receber, Conferir, Aceitar ou Rejeitar.
+[09:15, 15/04/2026] Obadias de Deus: Ou pode ser criada essa distinção no INÍCIO do fluxo com duas opções para o solicitante (Financeiro).
+
+Dois botões:
+
+Solicitações Comprador Externo 
+
+Solicitações ao Fornecedor 
+
+E dentro de cada opção enquadre-se as características adequadas de inserções de informações.
+
+Para o conferente permanece o mesmo cenário.
+
+Receber, Conferir, Aceitar ou Rejeitar.
+quando uma entrega encosta, o conferente sabe dessa origem (comprador externo ou fornecedor)?
+[09:27, 15/04/2026] Otniel França Sabor da Terra: quando uma entrega encosta, o conferente sabe dessa origem (comprador externo ou fornecedor)?
+Teoricamente no Card deve aparecer para o conferente todas as informações previamente preenchidas por mim e comprador externo para que em posse dessas informações ele confronte se fisicamente está tudo correto e finalize o fluxo da compra habilitando o arquivo para registro no SIDI.
+[09:40, 15/04/2026] Obadias de Deus: Teoricamente no Card deve aparecer para o conferente todas as informações previamente preenchidas por mim e comprador externo para que em posse dessas informações ele confronte se fisicamente está tudo correto e finalize o fluxo da compra habilitando o arquivo para registro no SIDI.
+isso estará. a pergunta é outra. dado que vc disse de uma DISTINÇÃO NO INÍCIO (isso também haverá), eu quis saber se o conferente tem como saber, quando encosta uma entrega, se é algo que veio do comprador ou de uma compra direta do financeiro. porque, se ele souber de antemão, é possível a interface perguntar inicialmente QUAL A ORIGEM DA COMPRA estabelecer uma lista de itens a conferir mais específica, mais direcionada. 
+
+somente por isso: uma lista mais enxuta.
+
+se essa possibilidade não existe, ignoramos isso e, de qualquer forma, o conferente saberá que aquela compra que aparece no seu tablet foi feita diretamente ao fornecedor (via financeiro) ou de forma intermediada (com o comprador na rua).
+
+só me esclareça essa questão que eu fecho o desenho aqui, já quase finalizado.
+[09:43, 15/04/2026] Otniel França Sabor da Terra: Para o conferente essa informação é irrelevante.
+
+Tendo a visão do fornecedor ele executará a vistoria apenas.
+
+Por gentileza, Ignore esse detalhe.
+[09:44, 15/04/2026] Obadias de Deus: Fechado
+[10:02, 15/04/2026] Obadias de Deus: Imagino que para esses casos em que o pedido não passa pelo comprador externo e são direcionados diretamente para o fornecedor para entrega, a única coisa que muda é que o administrador (solicitante) fica com a função de  também preencher os detalhes da compra e finalizar para status "Comprado"...
+
+sobre esse status, imagino que ele fará isso no retorno do fornecedor, né?
+daí a gente tem a seguinte questão: o fornecedor pode dar um retorno de disponibilidade parcial?
+porque, caso isso seja possível, talvez a baixa de status "comprado" poderá ser integral (no pedido completo) ou item por item, caso o pedido não seja integralmente atendido
+
+e, no caso de atendimento parcial, o que fazer com os itens não atendidos? indicar como não atendidos, excluir, para que não apareça para o conferente? dar outro tratamento?
+[10:06, 15/04/2026] Otniel França Sabor da Terra: Não há necessidade... Pois o registro de compra só será inserido na ferramenta após contato e confirmação prévia de disponibilidade do fornecedor.
+
+Se mesmo assim a quantidade ou condições da carga estiverem divergentes... Quem pega isso é o conferente onde ele irá inserir os detalhes da não conformidade.
+[10:45, 15/04/2026] Obadias de Deus: ok. então, nesses casos, os itens não comprados ficarão em abertos e os divergentes serão ajustados no momento da conferência. feshow.
+[10:47, 15/04/2026] Otniel França Sabor da Terra: Positivo 👍🏽

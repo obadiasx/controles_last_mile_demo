@@ -1,0 +1,973 @@
+*** INTEGRAL DA REUNIAO NA SDT EM 11/04/2026
+
+Palestrante 1
+Estamos definindo só 4 para ele, não é? Nós estamos determinando, lá tem um monte de condições de pagamento, opções, nós estamos definindo que lá no nosso ele só vai usar isso.
+Palestrante 2
+Cartão, boleto, dinheiro e pix, acabou.
+Palestrante 1
+Então para ele, não importa se no CID tem 10, nós vamos definir que para ele só vai entrar 4.
+Palestrante 3
+Isso, e dentro dos 4 ainda tem uma outra possibilidade, para cada cliente, para cada fornecedor, existe a possibilidade de você definir No cadastro, qual que é o tipo de a condição de pagamento, que aí ele nem escolhe na hora, quer dizer, nem definido.
+Palestrante 4
+Canaã, Canaã 30 dias, vocês já sabem disso, 8 do 4, 8 do 5, 30 dias.
+Palestrante 1
+Então, por exemplo, se já está
+Palestrante 4
+Definido, é isso que você está propondo
+Palestrante 3
+Que aí aqui ele nem pergunte,
+Palestrante 4
+Trata de forma de pagamento por cliente. Eu vou no fornecedor,
+Palestrante 1
+Então aí nem pergunte aqui, nem pergunte quando ele colocar Canaan lá forma de pagamento, ele já sai boleto 30 dias, puxa, entendi,
+Palestrante 3
+A menos que não esteja definido, aí ele abre a opção,
+Palestrante 1
+Aí ele abre a opção, aí o que que acontece é vai chegar aqui, já vai estar para ela no CID boleto 30 dias, ela vai olhar o boleto, é isso mesmo, tá certo, o valor tá certo, o produto tá certo, tá OK, conciliei, tá, bateu, faça o pedido de compra e manda para quando você pagar. que fica muito mais prático ela só vai conciliar Ela já tem o que ele que você mandou o que ele comprou tá só esperando a gente conciliar para poder passar por contas a pagar conciliou passou é porque tá certo não vai dar erro agora se realmente não vai bater data quem vai mandar aqui vai ser ela vai ter que conferir os dados certinho que ele vai lá vai ter que comprar certo quando ele Bater lá no Canaan já está cadastrado 30 dias. Aí o boleto dele tem que sair.
+Palestrante 4
+Como exemplo, o Daniel vai estar lá. Quando colocar Daniel, já sabe que é 40 dias.
+Palestrante 1
+40 dias. Da data da entrega.
+Palestrante 4
+Fazer isso aí. Pronto.
+Palestrante 1
+Não, isso aí é só, é só formatar para acontecer.
+Palestrante 4
+Fechou. Então vamos continuar aqui. Aí o Cassiano foi lá, colocou lá 30 dias, né? Isso daqui você vai eliminar, né?
+Palestrante 2
+De acordo com essas regras que foram,
+Palestrante 4
+Esse aqui, sim, a data de qualidade, já vou eliminar e aqui deixa observações.
+Palestrante 2
+Eu sempre tenho observações, se quiser escrever alguma coisa, se quiserem, é.
+Palestrante 1
+Tá pronto, aí ele comprou, ele deu fake,
+Palestrante 4
+Mas que observeu esse botãozinho aqui, ele
+Palestrante 2
+Não tá ativo, né?
+Palestrante 4
+Ele poderia estar, é.
+Palestrante 2
+Ah, sabe porque precisa definir uma data aqui, senão não vai ativar, pronto, tá dependendo é que essa data aqui não serve para nada, mas ele vai sair, é, senão não vai sair dessa tela.
+Palestrante 1
+Nem vai ter registrar compras, sabe?
+Palestrante 4
+Ele só deixa efetivar se tiver todos os cantos,
+Palestrante 2
+Os cantos obrigatórios e esse aqui está como obrigatório, mas quando ele sair já não vai ser mais.
+Palestrante 3
+Agora, observações não é obrigatório, então tudo bem.
+Palestrante 1
+Então, por exemplo, 30 dias ele colocou lá 28, não vai entrar.
+Palestrante 4
+Beleza, então ele foi lá, preencheu, comprou, está comprado com Ganaã, beleza.
+Palestrante 2
+Isso aí que acontece, essa tela, eu não mexi nela, mas o ideal. Não sei se você vai concordar comigo que seria sem ter uma listinha assim e aparecer comprado ele vai até porque aqui vai aparecer um monte de cartão que até bonitinho mas talvez uma lista assim para ele então mais ele gira ele roda uma lista não é que só tem resumo é que só tem um é que ele colocou vai
+Palestrante 3
+Ser vários cartões vão ficar se posicionando assim os cartões é mas talvez para esse caso é melhor uma lista é é que eu não mexi nessa tela agora que eu tô vendo que eu confundi é não é porque que acontece a gente desenvolveu Mas aí depois, quando eu fui revalidar, eu comecei a ver, não é assim.
+Palestrante 4
+E aí eu falei, poxa vida, não tá legal se tivesse.
+Palestrante 1
+Quando a gente anda, que a gente vai ver a dever.
+Palestrante 4
+Se tivesse 8, por exemplo, melão e apareceu 8 cartões. Mas é mais conforme ele vai comprando, o que acontece?
+Palestrante 3
+Vai no final da fila, os cartão se mexendo, mas é tão bonitinho, mas não é tão prático, mais prático, uma lista, uma lista.
+Palestrante 4
+Tá, mas mesmo em formato de lista,
+Palestrante 2
+Vai pro final aí em cima, o que não foi comprado e o que foi comprado, tudo pra baixo.
+Palestrante 4
+Ele vai ter a prioridade de visualização
+Palestrante 1
+No que não foi comprado, cor diferente, onde entra um limite de preço.
+Palestrante 2
+É, então é que a gente já não já foi, já fechamos, né? Teria que incluir alguma coisa aqui, uma solicitação de compra, vamos mudar aqui, vamos voltar lá, financeiro, financeiro. A gente pode reproduzir isso aqui. Eu não testei, mas vamos ver se tá funcionando direitinho. Tá vendo? Posso tá vendo o comprador? Aí ele fala assim, poxa vida, tem que comprar mais coisa, ele não sei lá, eu vou incluir aqui, ele vai aparecer por cara lá no mesmo dia, porque no mesmo dia é por dia por dia e aí já tem que aparecer. Então vamos colocar mais uma coisa aqui,
+Palestrante 4
+Então lá, mas aí você não vai criar, você vai criar uma nova, uma é isso aí vai ter que vai ter que ser embaixo criar
+Palestrante 2
+Não aqui, quer ver? Me fala outra coisa, mamão, mamão.
+Palestrante 4
+Como?
+Palestrante 2
+Mamão Formosa, mamão aqui, mamão Formosa.
+Palestrante 4
+Aí coloca assim, 10 caixas, 10 caixas. Caramba, onde tá aqui, lá ao contrário, só coloco a quantidade que não precisa.
+Palestrante 2
+É, eu não lembro onde que tá, mas tem uma regrinha que eu defini. Eu preciso, poxa, era, eu acho que era, não era por produto. Eu não criei essa opção, esse menu,
+Palestrante 4
+Porque aí no cadastro de produto, aí você coloca o valor, é por produto, não é na hora de comprar, antes era imaginava que, por exemplo, o usuário financeiro, que seria o usuário chave, a dona Mara, ou no caso eu que gero acesso, teria no aqui, por exemplo, aqui, se eu aqui no
+Palestrante 2
+Menu, aqui, gente, de repente, tá aqui, eu não lembro mais, tá, será, não tá, não é só esse aqui mesmo.
+Palestrante 4
+Não, o menu ele abre aqui, então deveria ter uma opção aqui, mais opções aqui, por exemplo, assim,
+Palestrante 3
+Não tinha, parece limite de preço, não cadastro de produtos, aí abre os cadastros, aí tem algumas opções, né? E o que pode alterar, tipo, limite de preço. Então, agora eu fiquei, eu fiz todas as regras para
+Palestrante 4
+Isso, mas esse cadastro, ele não puxa direto para o Cid? Ele puxa só a lista de itens, não é isso?
+Palestrante 2
+Isso, mas ele está pegando, mas ele está pegando uma tabela. É, está pegando, é, mas ele está pegando a nossa base. Quer ver? Eu dupliquei. Aqui é do Cid e esse aqui é a nossa base. Quer ver? Ah, é melhor assim. Ele está abrindo pronto. Ele está pensando databases. Esquemas, public tables. Fornecedores, produtos, esse aqui, porque mudou esse aqui, mas eu não paguei a tabela produtos aqui, ver como que eu faço para ver por aqui? Se fizer um pouquinho que ele abre, né? Não, pera aí, é que eu não geralmente não uso aqui, tá? Tem aqui view, view data aqui, tá aqui, tá vendo? Se eu não me engano, queria uma OK, valor máximo aceitável isso.
+Palestrante 3
+Faltou eu fazer a edição dessa tela, mas eu fiz, não, só que eu fiz, eu fiz a regra, está funcionando, mas eu não queria a telinha para consultar,
+Palestrante 2
+Mas eu vou fazer isso.
+Palestrante 3
+Foi vacino meu também, então aí ele
+Palestrante 4
+Vai aparecer aonde lá?
+Palestrante 2
+Não é aquela janela do. É, então eu vou escrever aqui mamão, quer ver? Aí a gente altera aqui. Cadê? É mamão, né? Eu não sei como que faz. Eu não uso aqui descrição, like, deve ser assim.
+Palestrante 1
+Porque nós vamos definir qual é o preço máximo.
+Palestrante 2
+É aqui, isso. Formosa, né? Opa, vem aqui. Qual que é o valor máximo aceitável? Então, mas ele tem que ser por quilo, por não sei o que, né? Não, por caixa. Por caixa, por quilo, depois não sei o que.
+Palestrante 1
+A gente vende por caixa, ele compra por caixa, então R$ 65 a caixa, por exemplo.
+Palestrante 2
+Então, mas ele tem que colocar R$ 65 e tem que indicar a caixa, porque na hora que ele for comprar, tem que sair lá nos polegadas, que eu não fiz isso. Mas agora eu estou pensando, o valor de quê? Da caixa?
+Palestrante 1
+E a caixa?
+Palestrante 2
+E se por acaso na hora lá ele chegar e comprar por quilo?
+Palestrante 4
+Então aí volta lá naquela tela que a gente tava.
+Palestrante 2
+A hora que a gente quiser compra, ó,
+Palestrante 4
+Por exemplo, abre aí o Formosa. Tá vendo aqui, por exemplo, para esse item, ele me abre, ele me abre essas 3 opções, exatamente. Então o que ele está falando é o seguinte, a gente deveria ter o valor estipulado para cada.
+Palestrante 2
+Então, pelo menos aqui é especificar o valor máximo aceitável.
+Palestrante 4
+Para cada unidade de medida,
+Palestrante 2
+Ou você fala assim para caixa e ele sozinho converte. Porque se a gente olhar aqui,
+Palestrante 1
+Por exemplo, a gente vende, a gente vende ameixa é por unidade. Então, o que eu tenho que fazer? Quanto vem na caixa, nós já teríamos que já pegar, nós vamos comprar ameixa com ele compra a caixa,
+Palestrante 4
+A caixa vem em 60
+Palestrante 1
+E a gente vende como unidade. Então, se eu. Tem que pagar no máximo 120 na caixa, quanto custa cada unidade? Então para nós aqui, eu só posso pagar 120 na caixa, que é o preço que eu vendo. Aí não pode deixar eu comprar, anão ser que alguém autorize, porque vai ter que mudar o preço final para o cliente.
+Palestrante 2
+O que eu estou dizendo é o seguinte aqui, está vendo? O produto aqui é uma mão formosa, o código é 739, então está aqui, 79 caixa. por quilo ou por unidade, então se você falar assim que dá para fazer a inteligência, o valor máximo é 65. Aí eu pergunto, por qual unidade? Por caixa, porque o cara pode comprar tanto. Aí, tá aqui, uma caixa são 10, aí se em vez de ele comprar caixa, comprar por quilo, a própria ferramenta pode fazer a conversão automaticamente. Ah, você comprou 5 quilos?
+Palestrante 1
+Porque na caixa vem 10 quilos.
+Palestrante 2
+É, mas você só comprou 5, digamos, ou comprou 9, sei lá.
+Palestrante 3
+Porque não tinha caixa, comprou, mas aí pode usar essa conversão automaticamente se dá para fazer.
+Palestrante 1
+Desde que você informe que a caixa pesa tantos quilos.
+Palestrante 2
+Desde que você informe que o valor não, isso já tá informado, o Sidney já faz isso. Desde que você fale lá na hora, ó 65 é do que da caixa?
+Palestrante 1
+Caixa com quanto?
+Palestrante 2
+Aí é o Sid já sabe, sem informação é do Sid,
+Palestrante 1
+Já sabe, é, já tem no Sid, já isso aqui é do Sid, pegou do Sid,
+Palestrante 2
+O que a o peso, a uma caixa Ele pesa 10 quilos.
+Palestrante 1
+E quanto que está?
+Palestrante 2
+E uma unidade pesa 170 gramas, em média. Isso está definido no sítio que deve ser padrão, né? A
+Palestrante 4
+Única coisa que a gente vai colocar agora é a informação de preço.
+Palestrante 2
+Isso aí 65 por caixa. Aí ele pode usar essa regra para converter quando a pessoa mudar para unidade ou quilo.
+Palestrante 1
+Isso daí vai servir. Eu já faço assim. Não vai, não vamos usar, mas a gente pode pegar para laranja quanto que é a unidade que nós compramos a caixa da laranja com 150 unidades. Mas eu tenho o peso também dela aqui.
+Palestrante 2
+Quer ver? Deixa eu ver laranja aqui.
+Palestrante 4
+Laranja é 22 kg, saco.
+Palestrante 1
+Agora eu posso vender 10 kg de laranja ou posso vender uma unidade. Então eu tenho o preço, desde que eu estabeleça.
+Palestrante 2
+Aqui, saco de 15 por 20 laranja, caixa votobloco laranja. Laranja liminatura. Esse caixa monobloco 2106-1789. Mas já esqueci. 2106-1789. Nesses casos aqui você colocou o código aqui. Produtos laranja. 1789 e 2106. Não, espera aí, é o código do produto aqui.
+Palestrante 1
+Não, mas o código do produto vai ser sempre em altura, tudo que tiver aqui um sala,
+Palestrante 2
+Eu sei não que para ele internamente, a gente diz laranja, mas para ele interessa aqui, 1789 é isso, né? 1789 e 2106. Olha que interessante que eu vim aqui, unidades de produto, 1789 só, olha que interessante, só a laranja. 1789 que é esse aqui que tem a definição da unidade. Essa aqui não tem monoblocos de laranja, de repente vocês nem usam, né? Então saco de laranja 15 por 20 pesa não sabe porque? Volta lá, não tem o peso definido, não volta lá na laranja,
+Palestrante 1
+Que aí tem outra coisa, laranja em Natura, onde você viu? Caixa monobloco, tá aqui. Que caixa, monobloco laranja, isso daqui. Que que é isso daí?
+Palestrante 2
+Unidade de compra. Eu já tenho uma unidade de compra especificada aqui, né?
+Palestrante 1
+Quem é que ela vai no estoque seco, deve ser aquele aquela é o saco de caixa para laranja, mas também não sei porque que usou isso daí. Depois teria que dar uma olhada, mas o que a gente vai usar é um 789. 179 que é caixa, e aí quando você clica nele,
+Palestrante 2
+179 caixa, só que aqui, nesse caso, no CID não está definida a quantidade de quilos
+Palestrante 1
+De uma caixa, mas tem porque ela tem o peso da unidade.
+Palestrante 3
+Tá, mas não está cadastrado no CID, mas nesse caso tudo bem, simplesmente não faria conversão, mas no caso do CID, no caso, nesse caso, ele só vai conseguir comprar por caixa mesmo, porque o aplicativo vai mostrar as opções que estão cadastradas no CID. E no caso de laranja, só aceita caixa. Ele nem conseguiria comprar, conseguiria comprar de outra forma. Ele poderia até comprar de outra forma e informar no sistema que é o equivalente em caixa.
+Palestrante 1
+É aí a gente, se for vender por unidade, a gente tem que pegar isso daí e dividir pela quantidade de peso e achar que eu custaria cada um.
+Palestrante 3
+E colocar a fração da caixa lá.
+Palestrante 1
+Isso. Eu compro, por exemplo, R$ 100. A caixa vem 150 unidades, ou seja, então cada uma para mim vai custar 150. É, por exemplo. Tem que fazer manual. Tá, mas então o que o que tiver lá disponível para a gente saber o preço da unidade, aí a gente já colocaria e coloca o limite da compra.
+Palestrante 3
+Então isso a gente definiu também, não o valor máximo, não o limite, a gente definiu um percentual, já pode comprar 10% a mais, 10% a menos. Uma coisa assim, limite de compra, limite de compra assim, tá 10 kg, o cara pode comprar até 11 kg, uma coisa assim a gente definiu. Um pouquinho a mais, pouquinho a menos, pode variar. Se passa muito, aí ele não aceita.
+Palestrante 4
+Aí você está falando mediante ao mediante ao que foi definido.
+Palestrante 3
+Aí teria que entrar em contato com você e
+Palestrante 1
+Não, mas aí a gente mesmo consegue inserir essa informação, porque, por exemplo, ele vai estar lá e R$ 65,00. Conseguiu comprar 65 ou comprou 40, sei lá. Se passar de 65, como é que faz?
+Palestrante 3
+Então, quer ver? Não vai deixar, não vai deixar, só que tem.
+Palestrante 1
+Aí tem um campo de autorização.
+Palestrante 3
+Tem um campo de autorização, que aí a gente autoriza aqui. Isso aí libera para aí. Exatamente.
+Palestrante 2
+Vê. Eu vou colocar aqui, ó.
+Palestrante 4
+Esse aqui é o financeiro que está colocando.
+Palestrante 2
+Então vou entrar no comprador e vou tentar comprar. Esse melão amarelo aqui em Natura, não esse aqui. Então vou ter que chegar. Melão Formosa in Natura, eu vou vir aqui. Melão Formosa in Natura. Aqui, cadê? Não escrever melão aqui. Que é esse aqui? Melão Formosa in Natura. E vou dizer qual que é o valor máximo aceitável para uma caixa?
+Palestrante 4
+Por exemplo, aqui a gente pagou 65, digamos que ele tivesse estipulado 60, 60, então ele tem que bloquear.
+Palestrante 2
+Esse aqui é o valor máximo 60. Ele pode comprar, deixa eu salvar aqui um exemplo é se salvou, se é aí na hora dele comprar, que vai acontecer,
+Palestrante 4
+Criou um novo agora de melão. É melão, não é melão que está
+Palestrante 2
+Fazendo, deixa eu apagar, é porque isso você lembrou bem, eu acho que como é na hora que ele queria que ele vai pegar lá, como agora não tinha, não tinha nem informação gravada aqui, então vou apagar esse aqui, certo? Não criou um novo, não copiou, não, espera aí, deixa eu salvar isso aí. Erro, deu erro, tem que aceitar pagar.
+Palestrante 1
+Tem que aceitar?
+Palestrante 3
+Não, não, o financeiro pode aceitar, está incluindo. O pessoal não comprou nada ainda. Ele tem que aceitar.
+Palestrante 4
+Mas o melão ele já tinha feito a compra. Será que é isso? Tudo
+Palestrante 2
+Mesmo? Foi o melão que eu tentei excluir?
+Palestrante 4
+Foi.
+Palestrante 2
+Ah, então desculpa.
+Palestrante 4
+Porque é o que já está comprando.
+Palestrante 2
+Ah, não, desculpa, eu fui porque era errada, mas a mensagem está errada.
+Palestrante 3
+Tem que mandar uma mensagem, não pode excluir.
+Palestrante 4
+O que está comprado não é, porque não tem como você.
+Palestrante 3
+Mas você viu que deu uma mensagem genérica? Não, tinha que mandar. Você não pode excluir, porque igual, entendeu? Não confunde igual. Acabei de me confundir.
+Palestrante 4
+Não, mas isso é bom, você não está aqui.
+Palestrante 1
+Espera aí. Então, mas pode acontecer de ele comprar e aí, de repente, ele tem que cancelar. Aí você tem que autorizar o cancelamento. Não é ele. Eu comprei o meu nome, só que aí eu vi lá que não deu certo. Como é que ele vai cancelar a compra? Ele não pode. Você tem que cancelar a compra aí então. Então a gente cancela a compra e cancela boleto, cancela tudo. Porque aí vai envolver cancelamento de nota, cancelamento de boleto. Nós, administradores, podemos cancelar? Ele não.
+Palestrante 3
+O comprador nunca cancela, mas aqui é o financeiro.
+Palestrante 4
+Só preenche. É, e o financeiro está salvando.
+Palestrante 1
+Digamos que ele foi lá e comprou esse mamão aí, está comprado.
+Palestrante 4
+Isso você está com 60, não foi?
+Palestrante 1
+Resolveu cancelar a compra.
+Palestrante 4
+Aqui não está previsto, ele não consegue
+Palestrante 1
+Não, mas ele tem que avisar, olha, cancelei a compra do mamão, aí a gente aqui pode autorizar.
+Palestrante 2
+Essa opção não foi prevista de cancelamento.
+Palestrante 4
+Isso não foi previsto pelo comprador ou não?
+Palestrante 2
+Não foi previsto nem pelo financeiro. Não, nada, nunca se falou isso.
+Palestrante 3
+Então existe a possibilidade dele comprar. Claro, pode dizer, né? E caramba, não sei lá, por qualquer motivo, né?
+Palestrante 1
+Qualquer motivo, cancela. Aí a gente pode cancelar,
+Palestrante 3
+Ele não, isso não está previsto. Nesse desenho, quando a gente definiu o que?
+Palestrante 1
+Mas eu acho que é importante, viu? Assim, a gente ter a alternativa dele, imagina que tem um B.O lá, o cara se confundiu, ele não tem mais. Aí eu já comprei. E agora, como é que eu cancelo? Pra mim aqui vai entrar o produto, vai entrar. É a questão de que o erro foi nosso. O cara já tinha faturado, vai ter que se virar para baixar, porque é uma coisa melhor, porque pela lei do consumidor, eu tenho 7 dias para cancelar meu negócio.
+Palestrante 4
+Cancelo na hora. Então, mas depois da compra concretizada, cancelar uma compra.
+Palestrante 1
+Quando o sistema está comprado e o cara pode desistir da hora.
+Palestrante 3
+Confirmou e depois disse, putz, não deveria ter comprado do outro lado, tá com preço mais barato.
+Palestrante 1
+Isso pode ser. Eu vou lá, cancela, cancela o meu pedido aí porque eu achei mais barato lá. Se ele não negociar o valor, beleza, mas aí eu posso ter o direito de ir lá, então cancela o meu pedido aí que eu não vou comprar.
+Palestrante 3
+E aí aqui não tem como cancelar realmente.
+Palestrante 4
+Mas tem como o comprador aí?
+Palestrante 3
+Aí o cara tá sugerindo o seguinte, ele não cancela, mas ele dá uma ligada e fala cancela essa compra que acabei de fazer que eu achei outro lugar mais barato. Aí aqui o pessoal cancela ele compra.
+Palestrante 1
+Ele tipo assim, ele já é, mas é que tá.
+Palestrante 4
+Ele não tem poder de inserir.
+Palestrante 3
+Então, por isso que então ele nem se ele nem de cancelar, mas se ele decidir cancelar ele,
+Palestrante 4
+Aí eu vou ter que eliminar o registro que ele fez.
+Palestrante 1
+Isso.
+Palestrante 4
+Aliás, o registro que eu fiz, ele preencheu errado, aí ele vai me ligar para eu.
+Palestrante 1
+Baixa aí, porque eu comprei errado e criar um outro.
+Palestrante 3
+Então o cancelamento pode ser simplesmente não precisa nem deletar, é só tirar as informações de compra. Aí ele volta para o estado anterior, cancelado, não precisa nem registrar nada. Entendeu? Porque quando ele quando disse comprado aqui, é porque tem as informações de compra, cancelar essa compra. Tem um botão lá, cancelar aqui, comprado um botão aqui, cancelar compra. A hora que faz aqui, internamente você vai lá e apaga todos os dados, aí volta para o status.
+Palestrante 4
+Eu penso assim, minimamente, o Cassiano lá, comprador, o que ele não pode mexer é o que? No que eu determinei. Sim, eu quero 12 caixas de melão aqui.
+Palestrante 3
+Ah, já sei onde você vai chegar. A melhor que ele
+Palestrante 4
+Comprou, mas ele pode existir isso aí, não. E se ele digitar, não é Canaã, ele colocou lá na mute, concordo com você, não é Canaã, droga. Aí ele concordo. Ele minimamente tem que ter essa condição de editar.
+Palestrante 3
+Concordo.
+Palestrante 4
+Então ele pode explicar, ele vai me gerar um é um trabalho que ele vai ter um funcionário só para ficar assim, corrigir. Concordo, concordo, faz sentido. Acho que é viável. Acho que ele tem que ter minimamente uma autonomia para. Poxa, eu coloquei Canaã, não é Canaã, é tal. Ah, vou mudar aqui, vou alterar. É, não.
+Palestrante 3
+E aí sim, bota mesmo, compra esse cara, não quero mais, cancela, ele compra novo, ele mesmo, só faz.
+Palestrante 4
+Ele pode, ele não pode deletar o que eu fico, não,
+Palestrante 3
+Cancelar, ele a aplicação que ele fez.
+Palestrante 4
+Por exemplo, naquela tela de comprador que apareceu assim, ele pode, pô, espera aí, deixa eu limpar tudo. Deve ter um botãozinho de limpar.
+Palestrante 3
+Não tudo, mas limpar aquela compra, né?
+Palestrante 4
+Limpar o cancelar a compra que ele preencheu, é o que ele preencheu.
+Palestrante 1
+Mas ele ainda não deu enter,
+Palestrante 4
+Ele não vai dele, não deu enter de nada,
+Palestrante 3
+Não, mas que ele tem lá do enter, vamos supor, ele comprou, falou pro cara, beleza, deu enter. Aí pronto, olha pra lá, falou, está mais barato ali, pera, pera aí, não vou comprar mais não, desisti, mas ele já deu enter aqui, ele poderia estar falando, não, não, não é isso não, cansado
+Palestrante 4
+Que eu acabei de fazer,
+Palestrante 1
+Para nós ainda continua aqui,
+Palestrante 3
+Sim, aí, aí volta lá com o nome,
+Palestrante 4
+Eu tô aqui, eu tô aqui e ele tá na rua.
+Palestrante 3
+É, ele tem que ter essa autonomia, com certeza.
+Palestrante 4
+Ele tá, não tem que ter esse mínimo de autonomia para não, espera aí. Vou, vou acertar aqui, beleza, que na hora que ele bateu, mas não é isso mesmo, beleza, aí quem que vai visualizar isso? Na hora que a carga bateu aqui, uhum, que aí vai chegar o motorista, ó, assim o canhoto aqui para mim. Aí o conferente vai pegar a Canaã. Aí ele vai abrir lá o aplicativo. Deixa eu ver aqui, mamute. Não, entendeu? Aí eu acho que assim, o conferente que não pode mexer em nada, porque o conferente ele vai bater, ele vai olhar assim, pô, mamute, Canaã, tá errado. Aí ele vai, aí a gente vai fazer aquele aquela jogadinha de recusar, aí vai acender o Painel para mim aqui. Você entendeu?
+Palestrante 1
+Mas aí vai dar o mesmo trabalho. Não, mas assim, Ele tem que alterar lá. Então você imagina. Ele já tinha lançado o melão do Canaã.
+Palestrante 4
+Então, porque muitas das vezes só que ele alterou.
+Palestrante 1
+Ele foi lá e comprou do mamute. Ele tem que apagar o que ele fez do melão lá no
+Palestrante 3
+E fazer de novo e comprar de novo. Isso, alterar só a compra dele, não alterar o que vai dar zebra aqui.
+Palestrante 4
+Então, então é que tá na hora que der a zebra, ele vai ter que acionar alguém ou então vai ter que acender um acende a nota tá Canaã e a carga.
+Palestrante 3
+Já na conferência aqui?
+Palestrante 4
+Sim, concordo, porque às vezes tem sim, de repente o Cassiano, ele ele errou no lançamento.
+Palestrante 3
+Também pode acontecer, né?
+Palestrante 4
+E aí só foi pego aqui
+Palestrante 2
+E aí nem percebeu. Isso pode acontecer também.
+Palestrante 4
+Claro. Então, Cassiano, você colocou canal, mas na cama não era multi. Aí não, então, espera aí. Aí isso pode acontecer também. Claro, ele entra e altera, vou ler agora. Aí a pessoa fala, não, não, não. Agora sim, Canaã, Canaã tá batendo. 12 caixa, 65 a pessoa vai estar aqui, fechou, aí vai dar, aí vai fazer a vistoria na carga, tá tudo em ordem, tá tudo.
+Palestrante 2
+Ou seja, o financeiro ou conferente que vai dar, ou seja, o financeiro pode ter permissão de.
+Palestrante 3
+Não atendeu o padrão de qualidade. Aí é outra coisa. Aí devolve mesmo.
+Palestrante 4
+Já tá comprado, isso é o que? Vamos lá, criar nova, nova.
+Palestrante 2
+Vamos criar um mamão de novo.
+Palestrante 4
+Nova, isso não, o melão. O que a gente encerrou, você já mudou foi o melão, foi? Não foi lá. 60 reais. E foi, foi mamão?
+Palestrante 2
+Mas não foi melão, melão amarelo, melão amarelo e nada. A gente tá louco.
+Palestrante 4
+Então vamos lá, eu vou pedir mais, agora eu quero, ***** eu copiei. de 12 e de mais cinco quero mais cinco não pode ser até mais uma mesmo coloca uma uma caixa ou as 12 não deu eu preciso de mais uma aí tá concluir é o que eu tô pedindo para o Cassiano aí agora vamos lá no usuário comprador Tá vendo? Um tá comprado, já ficou marca d'água, né? É, os outros estão aqui, comprar. Aí ele vai lá, coloca lá novamente, ele voltou no Canaã, pode botar Canaã de novo, né, fornecedor?
+Palestrante 2
+Sim.
+Palestrante 4
+Aí ele voltou lá, o Canaã, eu preciso de mais um, mais uma caixa. Ou outro fornecedor qualquer, mas aí agora tá não tá os mesmo 65.
+Palestrante 2
+Aí vai falar quanto que é 100 reais?
+Palestrante 4
+É.
+Palestrante 2
+Tem que colocar data aqui porque por enquanto é obrigatório, né? Entende? Mais pra baixo aqui. A forma de pagamento. O valor unitário informado. 99 ultrapassa o teto máximo definido para esse item. 60, ajuste o valor unitário ou peça ao financeiro administração administração desse item.
+Palestrante 1
+Ele registra a conta que está marcado.
+Palestrante 4
+Não responde porque bloqueou, está bem, não bloqueou.
+Palestrante 1
+Não, ele bloqueou.
+Palestrante 4
+Então lá embaixo, nesse caso, não deixa lançar porque você está pagando caro.
+Palestrante 1
+Mas ele, se ele apertar em registrar conta, ele não consegue. Aí tá abrir essa janela.
+Palestrante 4
+Vai, vai bloquear a tela.
+Palestrante 1
+Tá, isso aí.
+Palestrante 4
+A trava, então beleza, a trava funciona, fechou. Tá, então coloca lá 60. Aí ele foi, colocou lá 60.
+Palestrante 3
+Coloca 61, 61, ele vai aceitar, ele tem um limitezinho.
+Palestrante 4
+Tá, tem isso também.
+Palestrante 1
+Tem, nós colocamos 10%, lembra?
+Palestrante 3
+É alguma coisa assim, eu acho que é um 10%, registrar, passou.
+Palestrante 1
+Aí ele passou, não, também não entrou.
+Palestrante 3
+Eu acho que é só na quantidade. quantidade que tem um limite no preço não se eu colocar 59 ele vai aceitar porque tá baixo entendeu tudo bem beleza aí passou o preço não tem eu até é o máximo então é máximo não pode não tem
+Palestrante 4
+Então então tá cadastrado lá 60 reais
+Palestrante 3
+No máximo isso agora você fala não não
+Palestrante 4
+Pode passar um pouquinho
+Palestrante 3
+Com uma tolerância de não não tem tolerância porque é máximo a tolerância da quantidade
+Palestrante 4
+Da quantidade então o valor você tentou 61 não foi não foi porque e
+Palestrante 3
+Faz entender porque o valor Máximo, não é máximo aceitável, foi a regra que a gente definiu, o valor máximo aceitável, se for até esse valor você compra, assim mesmo, não compra.
+Palestrante 1
+Então aí ele comprou, ele já fez a compra, então o certo é ter essa listagem aqui mesmo, o que falta para ele poder ir zerando, que aí não fica nada para trás, ele não esquece de comprar.
+Palestrante 3
+Isso, exatamente.
+Palestrante 1
+Agora, essa lista ele tem que visualizar, depois ele tem que saber visualizar isso.
+Palestrante 3
+Então, na realidade, É só isso aqui, né? Então, aqui, ó.
+Palestrante 2
+Financeiro. Financeiro?
+Palestrante 3
+Aqui, ó, teria que colocar todos esses casos aqui. Abacaxi e Pérola.
+Palestrante 2
+Abacaxi, abacaxi, Pérola, ou abacate, abacate, in natura. espera aí Natura aí vem cá né 4 caixas e vai põe todos aqui em todos todos é
+Palestrante 1
+Essa lista excluiu Então essa lista aqui quando disponibilizar ele já vai ter essa lista para comprar então ele tem que ter essa lista na tela na tela dele
+Palestrante 3
+Ele vai entrar com o usuário dele e pronto, vai aparecer aquela tela
+Palestrante 1
+E aí ele vai comprando e vai baixando,
+Palestrante 3
+Vai baixando e vai baixando. Exatamente. E o detalhe é o seguinte,
+Palestrante 2
+Aqui, quando você vem aqui, pera aí, criar a solicitação do dia para o dia de hoje, mas dá para
+Palestrante 3
+Se já tem a lista de salário, já tem fechado de segunda-feira, vem aqui, já adianta, já vai adiantando o serviço.
+Palestrante 2
+Ele não pode ter isso,
+Palestrante 3
+Não, ele não vai enxergar.
+Palestrante 1
+Isso, nós aqui enxergamos,
+Palestrante 3
+Mas vocês quiserem, você pode colocar, já pode ir adiantando. Você sabe que tem coisas para comprar para o futuro, já pode ir colocando tudo, né? Ele não vai enxergar só no dia que ele enxerga. Ele só enxerga o que tiver no dia, nem antes nem depois.
+Palestrante 4
+E aqui lá no valet financeiro,
+Palestrante 3
+Que é isso aqui?
+Palestrante 4
+Você vai colocar aqui o menu para a gente inserir, para gente cadastrar e alterar o valor máximo permitido.
+Palestrante 3
+Exatamente. Gente, é sério, eu fiz essas regras com você, eu criei toda a regra do back-end, agora eu tô vendo esqueci de trouxe do front-end, que é se ele reclamar, a legal, então espera aí, deixa eu aprovar, libera, tem opção lá pra você liberar, dá pra eu consigo liberar, vou lá no banco e falo liberado, só que aqui não tá na tela, eu vou querer liberar,
+Palestrante 1
+Mesmo que exceda o preço, isso, isso, alguém autorizou, então tem que ir lá e autorizar também.
+Palestrante 3
+Tá tudo funcionando, faltou 8 e a tela aqui.
+Palestrante 2
+Espera aí, deixa eu só. Minha sugestão, se vocês quiserem, eu não consigo, eu já é
+Palestrante 3
+Um ajuste, o outro eu conseguiria até para segunda-feira, mas eu não consigo mais. Não, mas seja a minha sugestão, vocês já começaram a usar imediatamente.
+Palestrante 2
+A gente assim, é tipo usar em de forma.
+Palestrante 3
+É paralela, entendeu?
+Palestrante 1
+Então, mas aí pizzaria tá funcionando
+Palestrante 3
+Com essas regras todas?
+Palestrante 1
+Com essas regras todas, porque aí a gente começa a pilotar, a gente já vai fazendo isso acontecer no modo manutenção, vai no modo só para poder um teste, não para funcionar, mas a hora que a gente vai lidar tudo é isso mesmo, Uba Dias, então aí a gente já roda, tá?
+Palestrante 3
+Eu vou fazer o seguinte, eu também não quero ficar. Estica muito esse negócio.
+Palestrante 1
+Eu também não.
+Palestrante 3
+Eu vou fazer o esforço entre amanhã e domingo e na segunda-feira de manhã eu mando tudo certo para vocês. Na segunda-feira vocês usarem.
+Palestrante 1
+Porque a gente já começa a usar, começa a é uma bicicleta, a gente vai caminhar e vamos ver qual o tropeço. A gente vai te passando, olha aqui assim tá bom, até assim a gente ajustar, ajustou a gente pode acomodar.
+Palestrante 3
+É, mas você não tinha feito esse exercício. todo porque também não tava muito claro né não tava dando falha
+Palestrante 1
+Esse tipo de informação a gente não tinha
+Palestrante 3
+Não na realidade tinha dado umas fatos que eu corrigi mas isso aqui talvez por não usar mesmo assim não tá muito familiarizado Talvez isso a gente começa a segunda-feira já tipo eu vi lá e não funcionava o negócio eu tinha que dar uma enter até eu mesmo atrapalhei
+Palestrante 1
+Mas é bom a gente por isso que era bom que foi bom você vim não foi sem dúvida porque a gente assim a gente tem até medo de começar e dar errado então assim vamos entender como é que anda vamos como é que engata a primeira nesse negócio engatamos primeiro agora a gente consegue engatar uma segunda beleza exatamente aí terceira aí a gente fica confiante então vamos embora
+Palestrante 3
+Tá bom mas isso aqui que eu falei para vocês segunda-feira tá na mão de vocês eu vou resolver isso na segunda-feira
+Palestrante 1
+Porque aí agora o que que acontece é então agora eu vou falar e esse é um problema a gente vai então Tirar todos esses problemas que a gente acabou de colocar, montar a lista, deixar tudo prontinho no modo modo produção e vamos já testar. A gente fica segunda, terça, quarta e vamos te passando os problemas.
+Palestrante 3
+Isso e passando no mesmo dia, já colocaram o problema
+Palestrante 1
+Para resolver e tal e a gente até sexta-feira que vem é o nosso limite para testar, criando um cronograma. Até sexta-feira a gente vai testar tudo e vai ver. Rodou, rodou, pronto. Então beleza, tá liberado agora. Como é que o pessoal lá embaixo vamos testar do mesmo jeito? Eu preciso agora colocar alguma coisa lá para eles testarem. Vai ter que ser um tablet. Exatamente.
+Palestrante 4
+Vamos fechar o arco agora sob a ótica do conferente. Vamos lá, o Cassiano comprou os itens, agora vamos entrar com o usuário do conferente para ver quais as ações que o conferente vai fazer aí na tela.
+Palestrante 2
+Então, a questão do conferente, deixa eu só ver que eu tô bem lembrado.
+Palestrante 4
+É o que ele vai enxergar e o que ele vai e como que ele vai fazer?
+Palestrante 2
+É exatamente conferir.
+Palestrante 3
+Esse aqui eu tinha deixado, eu tinha feito, a gente tinha feito inicialmente, depois eu fiz um segundo e agora já estou no terceiro modelo diferente, que a gente foi um dos 2 que eu não publiquei aqui, tá?
+Palestrante 2
+Mas ó, conferência, esse aqui
+Palestrante 4
+Ó, então conferente vai chegar isso, só
+Palestrante 2
+Que aí, aí ó, chegou lá o negócio do Canaã, o que?
+Palestrante 1
+O que nós inserimos lá agora? Ele não enxerga ainda.
+Palestrante 2
+A tela do conferente. Fiz uma primeira, depois fiz uma segunda e eu fiz uma terceira. Só está a primeira e nem a segunda está aqui, que é o seguinte, a primeira era no modelo do Porque eu estava em dúvida, como que a gente vai fazer esse negócio? A gente vai mandar para o seed ou não? Como estava em aberto,
+Palestrante 3
+A segunda versão não publiquei, mas é o seguinte, a gente está imaginando aqui, a gente está supondo que está, que o seed já integrou os dados, porque até agora, quando ele salva, quando ele compra os dados, não vai para o seed, fica na nossa base de dados. Só que para o conferente conferir, ele pega os dados do CID, então supostamente esses dados já foram para o CID. Só que isso não é verdade, porque ainda está aqui do nosso lado, nosso aplicativo.
+Palestrante 4
+Tá, isso aí é o que o Canaã tá, é o que a gente acabou de fazer, não?
+Palestrante 3
+Então aí que acontece, sabe o que é isso? São os produtos Canaã que vocês compraram esses dias por aí que eu estou. Eu estou dentro da base de produção de vocês, entendeu? Exatamente é que na realidade quando vocês falaram assim no modelo antigo vocês falaram assim ó a gente vai começar para valer aí ia falar assim a partir de que dia vocês querem zerar as conferências fala assim até ontem a gente não vai conferir aí eu entro aqui no nosso lado fala ó de ontem para trás esquece não enxerga mais ia começar a partir de hoje entendeu mas como é teste eu tô deixando tudo aqui entendeu Então fez no é gerou no cid lá vem para cá, tá?
+Palestrante 4
+E vamos lá então Digamos que é
+Palestrante 3
+De antes que vem do do do cegesp foi esse cara, certo? Então em vez de a gente ver o dado que a gente inseriu a gente tá vendo um outro lugar dado que supostamente foi inserido. Só que essa dinâmica acontece, tá um pouquinho diferente, que é o seguinte, quantidade esperada, 22 caixas.
+Palestrante 4
+Certo.
+Palestrante 2
+Pera, deixa eu ver aqui. Ó, duas unidades.
+Palestrante 4
+Olha, tá vendo?
+Palestrante 2
+Aqui já não tem.
+Palestrante 4
+Então, eu esperava que o conferente enxergasse a mesma coisa que o que eu fiz, o Cassiano enxergou e ele também tinha dois quadrinhos.
+Palestrante 3
+Então, é porque essa lógica aqui ainda está na lógica antiga, essa aqui, essa tela, que o
+Palestrante 4
+Você vai limpar tudo bem
+Palestrante 3
+É você mandaria isso aqui ó e não tem não tá cadastrado no sistema então vem qualquer coisa quer dizer vem qualquer coisa não tem isso aqui e pode vir qualquer coisa ele vai ter que ficar conferindo deixa eu ver se é isso mesmo só que como a gente é uma rotut ela não vai ter esse problema o que tá no sistema é o que veio mesmo concorda Então essa tela na realidade eu já mudei só que eu não publiquei ainda entendeu eu não publiquei aqui para você certo que eu tenho tenho Tem o meu ambiente de desenvolvimento que está em desenvolvimento, tem uns ajustes para
+Palestrante 4
+Fazer isso, que é o que você vai fazer esse final.
+Palestrante 3
+Na realidade eu já fiz, é só que eu não publiquei. Só que tem um detalhe que eu estava que eu iria discutir com você, que eu iria propor, que eu falei para ela que está faltando para amarrar, que é o seguinte, ó, voltando esse modelo. Financeiro, cadastro, lista de compras, o comprador vai lá e compra tudo. Aí a lógica está assim, tem 10 itens, quando ele comprar os 9 itens.
+Palestrante 2
+Quando eu comprar os 10 itens, fechou? Cadastra um pedido novo.
+Palestrante 3
+Cadastra um novo pedido.
+Palestrante 2
+Cadastra onde?
+Palestrante 3
+Aqui ó.
+Palestrante 2
+Aí o seed por meio da API vai jogar isso aqui ó, aqui dentro, ok?
+Palestrante 4
+Tá, mas aí não é depois da compra, aí seria depois da conferência.
+Palestrante 2
+Não, depois da compra.
+Palestrante 3
+Então, aí que está. A gente diz, agora se você falar para mim, não, não quero, eu quero depois da conferência, tudo bem, pode ser também.
+Palestrante 2
+Se você quiser, pode ser.
+Palestrante 3
+É também.
+Palestrante 4
+É porque na verdade você não é só deve submeter No CID, depois que o conferente der o OK, que tá tudo certo.
+Palestrante 3
+Então a lógica que eu fui, a gente tinha discutido lá atrás, não era essa lógica, mas depois das conversas toda faz
+Palestrante 4
+Até mais sentido, porque senão o trabalho do conferente é para efeito prático é irrelevante, assim, para efeito de registro.
+Palestrante 3
+Na realidade, vai registrar no CID, a conferente vai ver e vai preencher no CID de novo. Aí não precisa, quer dizer, vai ter que acertar alguma coisa que está de não está de acordo, então, mas aí faz sentido realmente. Só mandando um seed depois que vai ser um conferente,
+Palestrante 4
+Porque se o conferente mexe alguma coisa, aí você tá dizendo que esse job aí do API, ele vai, ele vai entrar lá e alterar? Ele faz isso ou não? Uma vez submetido para o seed, tá registrado aquilo ali?
+Palestrante 3
+Não, acontece o seguinte, o conferente, ele não tem, ele não tem poder de alterar nada,
+Palestrante 4
+Ele vai só confirmar.
+Palestrante 3
+Claro que realmente está de acordo, mas por quê? Porque quando nesse modelo aqui, você não é nem cadastra no City, né?
+Palestrante 4
+O que?
+Palestrante 3
+Isso aqui você não cadastra no City? Você já cadastrou no City?
+Palestrante 4
+Isso daí vai antes do conferente? O que?
+Palestrante 1
+Antes do conferente.
+Palestrante 3
+Isso, então foi essa dinâmica que a gente discutiu também, mas aí agora, como a gente tem todos esses processos, toda essa forma de cadastro, deixar tudo amarrado, no desenho era o seguinte que a gente tinha feito, nesse novo redesenho, você faz a lista por aqui, vai lá no Ceagesp, ele compra, certo? E aí no nosso modelo, ele cadastra no City, cadastra no City. E aí carinha no modelo inicial, que foi fechado com Cemio, que é? Chega aqui, os dados já estão no seed, ele olha no seed e tal, não sei o que, não sei o que, aquela coisa toda,
+Palestrante 1
+Mas isso aí vai para um tablet.
+Palestrante 3
+Não, ele está constando via tablet, mas já está o dedo no seed. Fechou a compra do seu gesto, ele já vai para o seed. Mas aí você está sugerindo o seguinte, dado que a gente está fazendo todas as amarrações, é melhor ir para o seed depois da conferência do conferente, porque se tiver que fazer algum ajuste, já faz logo e o que entrar no seed é definitivo mesmo. E aí eu concordo que esse ciclo é mais robusto do que o que esse processo, do que a gente tinha decidido antes que era no Cagesp já vai para o CID e o conferente conferente pega os dados do CID para conferir. Não, não, não, não, deixa aqui na nossa base intermediária e só depois que o conferente conferir der OK, aí sim sobe pro CID.
+Palestrante 1
+Isso.
+Palestrante 3
+Então vou ter que alterar, porque a lógica, o caminho tá diferente, que a gente tinha definido assim, mas depois de todos os clientes conversando, é mais robusto. Realmente a gente Veja aqui na nossa base.
+Palestrante 4
+Quando ele finalizou tudo, quem vai dizer o que realmente aconteceu naquele dia é o conferente.
+Palestrante 1
+Então ele teria que zerar tudo.
+Palestrante 4
+Inclusive, assim, se eu pedir 10 caixas, ficar sendo, pô, meu, só trouxe 5 porque não achei em lugar nenhum.
+Palestrante 1
+Vai ter que ficar pendente, entendeu?
+Palestrante 4
+Então imagina o que vai ter que ficar pendente, porque eu considerando o produto chegar, porque o conferente, ele vai bater, ele vai marcar lá. Na lista eu vou colocar esses 12 que você vai.
+Palestrante 1
+Mas aí você.
+Palestrante 3
+Tipo assim, fala assim ó, aprova 83, aí a própria ferramenta pergunta assim, você quer já cadastrar para amanhã? Ou você escolhe o dia ou hoje mesmo, sei lá, a diferença? A pessoa fala 5 ele já na hora faz.
+Palestrante 1
+Ele já gera automático pendente.
+Palestrante 4
+Ele já cria pendência pro dia.
+Palestrante 3
+Já cria na hora.
+Palestrante 4
+Não vai ter que ser isso.
+Palestrante 3
+É porque é melhor.
+Palestrante 4
+Isso, boa.
+Palestrante 3
+Isso é simples até.
+Palestrante 1
+E aí, que outra situação pode acontecer?
+Palestrante 3
+Ó gente, eu tô gravando tudo isso, tá? Porque depois eu chego em casa, aí eu uso inteligência artificial e resumo tudo para mim, aí vou mandar um documento para você no celular, se bem que eu já vou fazer, tá? Independente de vocês concordar com tudo ou não.
+Palestrante 1
+Que situação que pode acontecer, o que é? A gente pedir um produto e ele não processa. Então se ele não trouxe, o conferente vai pegar e aí ele não vai conseguir, mas ele tem que no final do dia não veio. O que vai acontecer? Ele vai ter que dar um ok para o Cid enxergar, se não ele não vai conseguir enxergar.
+Palestrante 3
+No final do dia não veio.
+Palestrante 1
+Porque nós não criamos esse novo modelo? esperar chegar tudo ele vai confirmar e vai liberar possível visualizar se não veio um produto vai ficar tendência aí ele tem que liberar de qualquer forma
+Palestrante 3
+Mesmo com tendência é esse é o ponto ó tá aqui também tá desenhado assim vamos supor que acontece quantos itens são aqui digamos que sejam 23 tem mais 23 aí tá comprando comprando comprando deu horário ou não encontrou tal aí se ele comprar os 23 na hora que ele terminar os 23 ele encerra o processo automaticamente de compra sim é agora se eu deixar um um Ah então eu ia criar o tá vendo já tava diferente já tem que mudar essa lógica que eu tava fechando o pedido já tava criando o pedido para o sítio aqui na hora o cara você quer fechar fecha aí compra é gera o pedido então não então na hora que ele vier vai aparecer independente realmente vai aparecer assim por conferente não sei por conferente ou para alguém não vai ter o pedido 23 só veio 22 itens.
+Palestrante 1
+Isso.
+Palestrante 4
+Isso.
+Palestrante 3
+Aí o conferente, quem que vai falar assim, só veio 22? Isso. Quem que vai dizer isso? O conferente. Ah, tá. Mesmo que o comprador saiba, não, eu não consegui comprar um din, mas quem tem que levantar a bandeira é o conferente. Então, realmente a conferência vai ter que ser nessa coisa e se tiver algum item em branco, o conferente na hora. Vai ter que avisar como que funciona. Ele escolhe um pedido, porque na época com o a dinâmica com o sêmio foi assim, foi totalmente aberta, você não define. Eu estou conferindo esse pedido, vai chegando o produto, você vai vendo, vai comparando e você procura aquele produto no pedido que estiver. Então chega um caminhão, pode ter 5 pedidos diferentes. Era essa a lógica mesmo. Chegou um caminho de entrega com 5 pedidos diferentes, ou quando uma entrega é sempre só de um pedido. Como que funciona?
+Palestrante 1
+Não, o que vem do Ceagesp vem sempre numa, pode vir numa viagem e numa segunda viagem. De vários clientes, Ceagesp é um só.
+Palestrante 3
+Ou seja, mas cada box é um fornecedor, de vários fornecedores, vários fornecedores. Aí quando está chegando, está descarregando, tem assim, o pacote do fornecedor, do fornecedor B, vocês percebem isso?
+Palestrante 1
+Não percebe não faz isso hoje que ele não sabe de quem que vem ele vai passar a fazer então eu tô comprando o mamão do mamute hoje ele não sabe de quem tá comprando mas ele vai ter porque agora ele vai fazer a rastreabilidade lá embaixo
+Palestrante 3
+Isso mas por exemplo ele pode ter comprado comprado mamão em 2 fornecedores diferentes pode e aí quando chegar esse mamão
+Palestrante 4
+Aí ele vai olhar no quadrinho
+Palestrante 3
+Então aí pode ser do mamute ou do Canaã sei lá e qual que ele o que vai sentir a quantidade Ah, então acontece isso, porque era mais ou menos essa dinâmica 12 caixas.
+Palestrante 4
+Eu comprei aqui, eu fiz a compra da manhã, 12 caixa, aí depois fala, nossa, faltou, precisa gostar de mais um.
+Palestrante 1
+Entrou no lá no vilão, comprando um outro, mas aí ele cadastra.
+Palestrante 3
+Então, então é a dinâmica, é a próxima do que o senhor me falou, porque então pelo que ele me falou o seguinte, e é mais ou menos que vocês estão falando mesmo, descarrega o produto que chegou o caminhão. Aí pode vir de diversos lugares. O cara não sabe exatamente qual que é. Então ele olha aquele pacote e aí ele informa aqui. Na realidade, ele falou assim que ele informaria até o fornecedor, mas ele não sabe quem é o fornecedor. Mas se ele informar o produto, aí vai, por exemplo, uma mão pum. Aí vai aparecer 3 copas de uma mão no dia, ou só uma, se só uma é aquela. Se for 3, aí pela quantidade, ele vai olhar, então visualmente ele vai escolher, essa aqui confere, tá OK, aqui ele some. Então seria essa a ideia?
+Palestrante 1
+É isso, só que assim, o tinel vai mandar um pedido de 20 caixas de mamão. Agora essas 20 caixa, ele lá tem que se virar para comprar de um só, não comprou. Ele comprou 5 de um 15 do outro, 10 do outro e 5 do outro. Então que para ele vai estar lá 20 mamões, então o que ele vai ter que fazer? Ele vai ter que cadastrar 5 no mamute, 10 no João da Silva e 5 no outro no outro fornecedor. Ele vai conseguir fazer isso?
+Palestrante 2
+Hoje não. Assim não.
+Palestrante 4
+O que ele vai conseguir fazer é, ele só comprou 5, 5, ele não vai aceitar.
+Palestrante 3
+Olha a dinâmica. Aí eu aviso, ó, só consegui comprar 5. Aí, pelo que a gente falou, aí fala, tá bom, altera o 5. Aí o sistema pergunta, quer incluir um novo pedido?
+Palestrante 4
+Quer dizer, onde você quer jogar o saldo de 15?
+Palestrante 3
+Aí ele fala, pra comprar hoje, digamos, o cara aqui do financeiro. Aí pum, aí aparece para ele uma nova, um novo item 15, porque ele já comprou 5.
+Palestrante 1
+Aí chega no outro, ele tem o dedo ativar para liberar o pedido para ele.
+Palestrante 3
+Exatamente. Aí vocês falam assim, não, nesses casos, se ele ele
+Palestrante 2
+Tem a opção de comprar menos, e isso que o financeiro
+Palestrante 4
+Faria, o seu faz para ele na hora, sem perguntar, isso mesmo, dá para fazer.
+Palestrante 2
+Ele nunca pode comprar mais, mas se ele comprar menos, ele aceita e duplica e deixa um saldo lá para
+Palestrante 3
+Ele comprar em outro lugar.
+Palestrante 2
+Isso é simples de fazer.
+Palestrante 4
+Vai ficar em aberto aquela quantidade, que é preciso daquela quantidade, independente da onde ele comprou.
+Palestrante 3
+Então isso dá para fazer, que hoje não tem essa dinâmica. Porque aqui na hora de comprar, vocês viram quantidade. Colocou 10, se colocar muito menos, ele não vai aceitar.
+Palestrante 1
+Mas ele aceita menos.
+Palestrante 3
+Com limite. Se for de 10%, se for menos abaixo disso, ele nem aceita.
+Palestrante 1
+Mas a gente poderia deixar essa essa mente em aberto.
+Palestrante 3
+Então isso exatamente. Ele pode colocar menos. Se ele colocar menos, ele aceita aquilo. E abre o novo e tem qual a diferença?
+Palestrante 1
+Que não ultrapassa o S20?
+Palestrante 3
+Sim, exatamente. É isso aí. Aí comprou 5? Pá, ele coloca outro, aí ele coloca, aceita o 5 e cria o novo. 15 pendente. Aí chega lá e entra no outro fornecedor. Ah, só tem 10 aqui? 10! Aí ele acerta, abre o outro, 5 pendente. Aí chega no outro lá, 5 e compra. Ou não compra, porque não achou mais, aí vai ficar pendente. Pode acontecer também né, porque aí é o que vocês falaram, aí cheguei aqui, faltou. outros itens aí isso tá lá na ele vai ele vai voltar do de onde ele tiver ido com a lista incompleta porque ó senão daí tem coisa para comprar aqui ah não achei tô voltando
+Palestrante 4
+Aí eu tava pensando aqui 22 cenários não final do dia conferente e tal ó isso chegou isso não chegou tal mas é isso 6 horas da tarde não tem mais o que fazer hoje é isso aí aí ele aí ele que vai dar não ah não tô olha ainda tô esperando o Daniel chegar ele tá chegando tal coisa chegou fechou 100% ele vai clicar ok aí sim vai para o cid é isso
+Palestrante 1
+Mas ele não pode ir clicando assim chegou fechou aquele item o cid já enxerga e ficar porque senão ele vai ter que esperar chegar tudo para ele poder liberar para o cid
+Palestrante 4
+Acabou de falar, tipo, o seed só vai importar ou um job é,
+Palestrante 3
+Então aí depende de você,
+Palestrante 4
+Então tem automático a cada tem de 2 em 2 horas,
+Palestrante 3
+Não espera aí, mas o pedido é por cliente, né? Então o que pode fazer é o seguinte, por exemplo, por exemplo, isso que você acabou de dizer,
+Palestrante 4
+Um job de 2 em 2 horas, ele vai lá e coleta que está pronto
+Palestrante 3
+Por cliente e abre por cliente, por fornecedor. Desculpa, cliente, fornecedor.
+Palestrante 4
+Dá para fazer isso e já e já.
+Palestrante 1
+Não, ele pode fazer online.
+Palestrante 3
+Não, não, é verdade. O que pode fazer o seguinte, o conferente tá conferindo e o sistema tá olhando. Chegou no último daquela, porque tá tudo dependente naquela lista que foi comprado que conferiu. Ele vai aí ele percebeu que não tem mais nada aquele fornecedor ou para o seu, não, já que tá entendeu da hora, tá conferindo, tem 50 itens pra conferir, aí confere daquele 50 itens, tem 15 itens de um determinado fornecedor que pode aparecer a qualquer momento, 10 tá conferindo. Aí confere dia 12 13 15 cria cria é e já libera e já libera senão ele
+Palestrante 1
+Vai ficar com esse monte de coisa esperando para poder liberar para o sistema
+Palestrante 3
+Aí chega num determinado horário aí de repente pode ser que tem uma coisa assim o aí chega um determinado horário o conferente ainda não conferiu coisa que já foi comprada pode acontecer né pode aí tem que o que que aconteceria
+Palestrante 1
+Que tem que passar pra gente até agora estou em aberto aqui ó com item 3 com 5 itens
+Palestrante 3
+Tá então ele poderia passar para vocês ou vocês poderiam ver né então
+Palestrante 1
+Né que aí a gente monitora não chegou nada não
+Palestrante 3
+Chegou isso não ia avisar é o ideal não depender ninguém avisar vocês estão acompanhando ali Opa outra hora ainda tem coisa aqui que aconteceu aí vocês né ou no painel esse painel ó esse painel eu tirei porque porque a gente esticou o o abriu o nosso, como fala o escopo, aí eu acabei tirando, mas tinha um painel para ficar mostrando médica, não sei o que, esse tipo de coisa, né? Porque a ideia é o seguinte, no final do dia ou durante o dia, dá para ficar, dá para ver, daria para ir vendo, ó, já entrou tanto, tal, tal, tal, tal.
+Palestrante 1
+O que que está pendente? O que nós vamos fazer com essa pendência agora? Estou esperando chegar. Chegou tudo, não ficou um item pendente. Como é que a gente vai tratar esse item?
+Palestrante 3
+Então como é que vai tratar se você o painel é um negócio bonitinho eu posso fazer uma tela bem simples que não me custe muito esforço né para mostrar assim do dia quanto já foi só entrar assim quanto já foi entregue por cliente mesmo o cliente todo os clientes que falta entregar e o que não foi comprado
+Palestrante 1
+E que não foi comprado é uma tela simples dá para fazer porque aí a gente tem que tratar essa tela ou a gente exclui e gera um novo pedido para o dia seguinte Ou exclui e não gera pedido para o dia seguinte nenhum.
+Palestrante 3
+Simplesmente seleciona e fala assim, cancelar. Não mandar para o dia seguinte ou excluir. Aí manda para o dia seguinte e automaticamente já gera para o dia seguinte e pronto.
+Palestrante 1
+Porque o que aconteceu outro dia que ele não comprou um item aí ficou pendente.
+Palestrante 4
+Aí ficou pendente.
+Palestrante 1
+Mas veio no outro dia? Se veio, a gente baixa. Se não veio, exclui.
+Palestrante 4
+OK, então esse cliente vai receber sem esse item, a gente vai mandar depois para ele ou vai cancelar o faturamento desse item. Se cancelou o faturamento desse item, não tem mais a necessidade de comprar ele novamente. Porque se for um dispositivo automático de tudo que for pendente ele já automaticamente jogar
+Palestrante 2
+Não aí não né também não até muita bom
+Palestrante 4
+Né porque aí quando faz esse problema aí fala poxa não acho que ele poderia ficar pendente nem quer mais essa beterraba e aí chegou a beterraba
+Palestrante 3
+é não então tá pendente é o ideal é a pessoa olhar e falar não quero papa exclui isso ou se a pessoa não fizer nada vai
+Palestrante 4
+Ficar pendente tá perdido lá também já é a gente não vai Lá naquele naquele aqui, isso exatamente. Aí tem assim, é pendências, é exatamente. Aí eu coloco data, pedidos que é pendentes, pendentes, aí eu vou ele vai já ficando salvo, coloco lá, deixa eu ver aqui, hoje é dia, dia tal.
+Palestrante 1
+Ele sai da tela do recebimento, teoricamente ele já zerou, nesse que ficou pendente, ficou pendente aqui e não para ele, senão vai ficar essa informação lá rodando para ele que ele é desnecessário.
+Palestrante 3
+Não, não.
+Palestrante 4
+Hoje, fechou o dia mudou. Pegar um papel ali, que é o nosso papel da rastreabilidade. Aqui tá tudo causa de ouro assim. Chegou, não chegou. Não, não é isso aí, não precisa mais. E nem sempre às vezes eu consigo ver papel. Sim, eu tô lá. E se estraga o papel? Bota meu nome. Pô, faltou tal coisa. Eu falei, não, tem aí, não faltou. Eu falei, pera aí, na minha base tem. Deixa eu pegar aqui. Não chegou. Eu achei que tinha chegado e não chegou,
+Palestrante 1
+Mas agora a visualização vai ser bem mais fácil. Bom, então recebimento fechou. Então a minha preocupação era essa, ficou pendente, o que vai acontecer com isso? Então vem para a gente só para tratar e filtrar essa informação. O que nós vamos fazer?
+Palestrante 4
+Vai ser uma rotina, eu mesmo já vou bater o botãozinho aqui que eu vou, deixa eu ver o que ficou pendente.
+Palestrante 3
+Aí você escolhe ou ignora. Eu acho melhor ignorar para ficar histórico até para ter métrica. Eu vou falar não esse aqui, esse, esse e esse
+Palestrante 1
+Mantém para pedido novo para pedido novo.
+Palestrante 3
+Aí sim, aí pergunta que dia ou automaticamente o próximo dia, sei lá, melhor perguntar o que dia né pum. Aí você fala para amanhã, depois, sábado, sei lá, vai até dia.
+Palestrante 1
+É isso aí, legal. Bom, então aquela do recebimento é essa.
+Palestrante 3
+Sim, tá.
+Palestrante 1
+Então o que a gente precisa acertar esses detalhes para a gente poder então começar a pedalar segunda-feira. Agora, a segunda etapa, eu preciso que isso entre no meu estoque, que é o módulo que a gente não fez. Diante de tudo já pronto, estruturado, aí você vai pensar como que a gente vai fazer para, entrou o recebimento, confirmou a entrada de 12 caixas, 12 caixas dá quanto? Em quilos dá tanto? Então eu tenho que atualizar meu estoque agora.
+Palestrante 3
+Tá, minha sugestão. Vamos fechar isso aqui e eu vejo outro dia que a gente sente bonitinho.
+Palestrante 1
+Então você já tem essa ideia, porque isso aqui nós combinamos, tá certo e vamos rodar agora. Agora eu preciso então complementar isso aqui agora com o meu estoque, senão não tem sentido eu ter feito tudo isso. Para mim o importante é ter meu estoque,
+Palestrante 3
+Porque a gente vai do ladinho, né?
+Palestrante 1
+Porque o hotnel, ele vai que nós vamos ter duas comparações, vamos ter o nosso estoque, que é o que nós compramos, e vou ter meu estoque físico. Então ali, o que vai acontecer? Eu tenho meu estoque físico, que é uma coisa, e meu estoque virtual, que é outra. Eles vão levantar meu estoque físico e eu vou bater com meu estoque virtual. Então eu vou ver que discrepância que isso me deu. Eu tenho que buscar esse dinheiro de reposição. Eu sei que eu estou com um buraco de mamão com 50 caixas de buraco. Cassiano, vamos tentar ver o que o camarada vai fazer com a gente. Então eu preciso ter essa visibilidade. porque aqui eu tenho uma visibilidade virtual se eu tenho estoque hoje 100 quilos de mamão eu estou comprando 100 quilos de mamão mas eu tinha 50 no estoque A mais B menos C então eu tenho estoque virtual que é uma coisa que eu só calculo e aqui eu tenho que é real então essa é a nossa ideia em relação ao estoque ter essa visibilidade depois que chegou tudo, porque eu tenho amanhã que produzir uma quantidade, então eu tenho esse estoque para minha produção de amanhã, eu estou comprando para produção de amanhã, tem que ter. Então assim, aí entra esse outro lado que nós precisamos pensar.
+Palestrante 3
+Você não controla os produtos de direito, controle pelo Excel.
+Palestrante 1
+O Tinel fica em função disso, que é uma dor de cabeça do cão, porque eu sei como que faz. A gente tem que pegar um estoque de ontem para pegar um estoque de hoje, eu tenho que pegar o que eu vou virar amanhã e aí eu vou planejar a compra do dia seguinte. Então, se a gente tiver isso de uma forma inteligente, a única coisa que eu preciso cuidar é que o meu estoque online seja o mesmo do meu estoque físico. Claro que nunca vai ser igual. Eu vou ter uma discrepância aí, porque eu vou ter perda. Eles vão ter que tirar produto ruim, mas é isso que eu preciso.
+Palestrante 3
+Então, mas eu não sei, não é minha área, tá? Eu não sei como que as empresas fazem nesse caso, mas assim, você tem momento que você faz um alinhamento, como se chama isso? Alinha o físico com todo dia, inventário. O inventário, inventário, essa palavra. Esse inventário seria de água?
+Palestrante 1
+Diário.
+Palestrante 3
+Então pouco, todo dia passa lá e a tua lista tá lá no sistema.
+Palestrante 1
+Isso aí. A única coisa que a gente vai ter que integrar é o meu estoque físico e o online e o que eu vou ter que produzir, porque o sítio já me gera um relatório do que eu vou produzir amanhã.
+Palestrante 3
+Então, perfeito.
+Palestrante 1
+Então é só ir buscar essa informação lá, que que eu tenho que produzir amanhã, eu tenho um estoque que vai me faltar, porque ele já consegue. Tudo que a gente compra hoje é para depois de amanhã e o que está aqui Já é com a produção de amanhã, não pode faltar nada. Então, teoricamente, quando ele bater meu estoque hoje, agora, chegou tudo, eu vou ter a produção para amanhã, que de repente meu estoque aqui não.
+Palestrante 3
+Olha só, quando esse negócio estiver bem alinhado, você não vai nem precisar fazer só direitinho comprar e faz sozinho.
+Palestrante 1
+Vai sozinho. Essa é a ideia. A gente só monitora.
+Palestrante 3
+Sim, falta. Então,
+Palestrante 1
+Esse estoque ele tem que servir para isso, para a gente agora balizar. Ok, isso aqui rodou, tá maravilha, já tô comprando. Vamos fazer tudo manual. Daqui a pouco eu preciso fazer que isso aqui caminhe sozinho. E aí o Tiné só vai supervisionar, ver se realmente é onde deu discrepância. Onde está a discrepância? Pô, tem que corrigir aqui. Mas Dias, deu errado aqui. Como é que a gente faz para arrumar? Entendeu? Então essa segunda parte aqui é tão importante quanto essa para mim. Não pode demorar tanto tempo.
+Palestrante 3
+Não, sim, não. Eu acho que não demora, porque o primeiro a gente ficou desenhando, voltou, foi, voltou. E se a gente fizer a parte de estoque, como a gente tá fazendo isso aqui, isso funciona.
+Palestrante 1
+Porque que eu pensei dessa reunião? Falei, tudo bem, vai deslocar não sei o que, mas a gente não tava conseguindo fazer. Sim, a bicicleta tava lá e nós estamos aqui, não estamos conseguindo chegar na bicicleta. Então assim, é melhor. Hoje esse bate-bola foi importante para a gente. Já alinhar tudo que tem que ser feito, então a partir de segunda-feira nós já estamos em cima dela e até sexta nós temos que tirar todos os problemas da frente. Rodou, rodou, maravilha. Vamos implantar uma semaninha para implantar. É o tempo que a gente tem agora para pensar no segundo passo. Aí a gente senta de novo, desenha esse projeto, é isso, é isso. Então vamos executar, executamos, vamos fazer de novo. Um test drive aqui rodou na nossa, vamos para a produção, vamos para a produção. Então é isso que eu precisava. E eu queria fazer isso no máximo em 30 dias, depois que a gente virar tudo.
+Palestrante 3
+Não é, de repente dá para fazer isso.
+Palestrante 1
+Porque já está tudo pronto. O caminho a gente já sabe.
+Palestrante 3
+Porque também tem outro problema. Isso que você falou, verdade. Para desenvolver isso aqui, a gente tem que fazer do zero. Você tem que criar um sistema, criar um banco, tem que é um monte de coisa. De infraestrutura do sistema? Que isso leva tempo, levou tempo, agora não, a infra está pronta, é só colocar novas funcionalidades.
+Palestrante 1
+Cid a gente já conhece, é só buscar lá, ele tem que enxergar o Cid. Como é que a gente vai montar a nossa máquina? É isso aqui, montar para o estoque, unir todo mundo e todo mundo conversar e aí a inteligência começa a funcionar sozinha. Perfeito, essa é a ideia.
+Palestrante 3
+Tá bom, então vamos fazer o seguinte, eu vou, esse final de semana eu vou trabalhar, não é? Em cima do que eu entendi e vou mandar um documento para vocês. Aí depois vocês falaram assim, não é bem assim, tal alguma coisa, a gente ajusta durante a semana, mas assim
+Palestrante 1
+Isso que a gente queria segunda-feira já testar.
+Palestrante 3
+Não, isso que a gente discutiu aqui hoje na segunda-feira vocês vão testar, eventualmente se alguma coisa ficar assim, porque das outras vezes eu fazia, mandava, ele dava olhada e falava assim, é isso mesmo, eu trabalhava com o menino sempre foi a mesma coisa, dessa vez não, não vou nem mandar para vocês. Já está claro aqui, eu vou fazer e já vou entregar um documento.
+Palestrante 1
+Só tem um degrau aí.
+Palestrante 3
+Se tiver uma dúvida, eu te perguntas na hora.
+Palestrante 4
+Só tem, você consegue já fazer a simulação prévia?
+Palestrante 3
+Até segunda que você está falando?
+Palestrante 4
+Não, não. Assim, do que você vai ajeitar o que tem que ajeitar. Isso, certo?
+Palestrante 3
+Não, eu já vou publicar para vocês.
+Palestrante 4
+E a sujeira tiver de você já
+Palestrante 3
+Lembra, não, já vou tirar.
+Palestrante 1
+Na segunda-feira já vai estar no ar, vai vir prontinho para a gente começar.
+Palestrante 3
+Eu eventualmente pode ser que tenha uma coisa, não foi bem isso, eu acerto, porque normalmente o que eu faço, eu faço o documento e falo, é isso mesmo? A pessoa, aí a pessoa vê e acerta, lembra que a gente já discutiu? Se eu mexer uma coisa em outra, nem é o que é para não para eu não ficar tendo que refazer coisa, agora não vou fazer mesmo, se tiver que fazer, eu faço, mas vai ser pouca coisa.
+Palestrante 1
+Bom, a única coisa que a minha dúvida que ficou, hoje nós estamos trabalhando no nosso Excel manual, isso aqui sai tudo manual, ele faz um no ar.
+Palestrante 3
+Digitamos no sistema, eu vou entrar mais vamos ó, item por item, digitar um item por item,
+Palestrante 4
+Cada linha dessa vai ser um quadradinho daquele, apesar que você vai transformar isso em lista, certo? É, esse aqui vai ser uma lista, vai ser mais quadrinho, vai ser lista, lista com coluna.
+Palestrante 1
+A minha dúvida é, hoje você faz tudo isso baseando no estoque, então você vai ter que manter o estoque e só lançar isso aqui.
+Palestrante 4
+Isso. Isso, manual, ele vai olhar lá os meus controles ali de vamos continuar. Por enquanto, vamos continuar. A única coisa que você vai subir, por exemplo, quando eu chego nessa conclusão, vários cálculos foi feito antes, isso tem outras planilhas lá, tá? Aí eu falo, esse aqui que eu preciso para amanhã, então você vai
+Palestrante 1
+Digitar um por um, aí
+Palestrante 4
+Na hora que eu tiver isso aí eu vou morar lá.
+Palestrante 1
+É um retrabalho por enquanto,
+Palestrante 3
+É e não tem muito que fazer, mas vai melhorar pelo menos a qualidade da informação que chega, que era a ideia, a conferência, aí depois.
+Palestrante 1
+Se a gente colocar o estoque, vai dar um trabalho, depois quando a gente colocar o estoque, isso vira automático. Aí esquece as planilhas, esquece tudo, a gente vai trabalhar.
+Palestrante 3
+Ele sozinho já gera, você só confere, né? Fala, eita, corrupção de alterar, né? Pronto, tá feito.
+Palestrante 1
+Então é isso, eu acho que tá claro, eu acho que foi muito bom, porque a gente avançou, do jeito que tava, a gente não ia sair disso nunca. Testa aí, ele não tem tempo para testar sozinho. Era importante a gente ter parado essa 1 hora, 2 horas para a gente conseguir fazer rodar, você saber onde estão os problemas,
+Palestrante 3
+Alinhar coisas que podiam aparecer.
+Palestrante 1
+Feito isso, a gente então já tem essa segunda etapa para a gente poder fazer e já para ele já se livrar desses problemas todos que ele tem, porque hoje o tempo dele hoje está em função disso e é trabalhoso.
+Palestrante 3
+Sim, agora estou tendo uma ideia melhor ainda, que loucura isso aqui, ficar controlando o estoque não sei o que, nossa,
+Palestrante 1
+Hoje ele tem que ficar, ele tem que ter 2 olhos. É tipo um olho aqui no estoque e um olho aqui no na compra, então ele tem que estar alinhando isso a gente com o estoque e compras alinhado, acabou o nosso problema. Fechou? Então para mim está claro, se você mandando isso segunda-feira para nós, a gente já testa e já resolve o nosso problema. Então nós temos aí um cronograma até sexta-feira que vem. Isso tá fluindo que nem manteiga. Perfeito. Ok, eu quero sentar com você depois, só para a gente, você já vai pensando, para a gente já estruturar o estoque, que aí eu quero até no final de maio, estar com isso pronto.
+Palestrante 3
+Fechou.
+Palestrante 1
+Fechou. Então estamos alinhados com o prazo para não ter mais dor de cabeça. Fechou?
+Palestrante 3
+Então tá.
+Palestrante 1
+Ok, então quer mais?
+
+
+
+
+
+
+
+**** MINHAS ANOTACOES NA REUNIAO
+
+
+formas de pagamento: 
+====================
+cartão
+------
+criar cadastro de cartões com:
+código - 4 dígitos
+descrição - 
+ativo/inativo 
+
+
+boleto
+------
+criar possibilidades de prazo de pagamento
+- à vista
+- 10 dias
+- 20 dias
+- 30 dias
+- 40 dias
+colunas:
+- código
+- descrição
+- dias de prazo
+
+dinheiro
+--------
+
+
+pix
+===
+
+

@@ -1,0 +1,1 @@
+export const handleCloseMenu = (setAnchorEl: (value: null) => void) => setAnchorEl(null);

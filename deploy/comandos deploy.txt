@@ -1,0 +1,26 @@
+docker load -i nginx.tar
+docker load -i frontend.tar
+docker load -i backend.tar
+
+
+docker network create lewio-network
+
+docker run -d \
+  --name lewio-backend \
+  --network lewio-network \
+  --env-file /root/lewio-deploy/.env \
+  -p 8000:8000 \
+  erp_sabordaterra-backend:latest
+
+docker run -d \
+  --name lewio-frontend \
+  --network lewio-network \
+  -p 3000:3000 \
+  erp_sabordaterra-frontend:latest
+
+docker run -d \
+  --name lewio-nginx \
+  --network lewio-network \
+  -v /root/lewio-deploy/nginx.conf:/etc/nginx/conf.d/default.conf:ro \
+  -p 8080:80 \
+  nginx:alpine

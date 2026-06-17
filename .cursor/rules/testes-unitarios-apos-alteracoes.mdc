@@ -1,0 +1,32 @@
+---
+description: Rodar testes unitários após alterações de código feitas pelo assistente (backend pytest)
+alwaysApply: true
+---
+
+# Testes unitários após alterações de código
+
+## Obrigação
+
+Sempre que **este assistente** alterar código no repositório (especialmente **Python** no `backend/`, inclusive `backend/app/domain/`, repositórios, routers, schemas e `backend/tests/`), deve **executar os testes unitários** antes de considerar a tarefa concluída, usando o terminal do projeto.
+
+## Como rodar
+
+- Diretório: **raiz do repositório** (`ERP_SabordaTerra`), onde está o `pytest.ini`.
+- Comando padrão:
+
+  `python -m pytest`
+
+- Se a alteração for **localizada** (um módulo ou domínio só), pode restringir para ganhar tempo, por exemplo:
+
+  `python -m pytest backend/tests/test_conferencia_fase.py -q`
+
+- Se `python -m pytest` falhar por ambiente, tentar `py -m pytest` ou o interpretador do venv ativo.
+
+## Interpretação
+
+- **Suíte verde:** seguir com o resumo da alteração para o usuário.
+- **Falha:** corrigir o código ou os testes até passar, ou explicar o bloqueio (dependência ausente, teste flaky) de forma objetiva — sem encerrar como “pronto” com testes quebrados por alteração introduzida.
+
+## Frontend
+
+- Se só houver mudança em **TypeScript/React** e o projeto tiver script de teste (ex.: `npm test`), executar quando existir e for rápido; caso contrário, o foco obrigatório desta regra é o **pytest** do backend quando o diff tocar Python.

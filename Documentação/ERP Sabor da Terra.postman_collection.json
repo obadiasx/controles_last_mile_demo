@@ -1,0 +1,174 @@
+{
+	"info": {
+		"_postman_id": "35e03dbe-eefb-4ebc-9e4b-a2a2270dc25e",
+		"name": "ERP Sabor da Terra",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13730481",
+		"_collection_link": "https://lewiodev.postman.co/workspace/Workspace-Obadias~62c946b8-271e-484c-8f14-6c980eaf93d0/collection/13730481-35e03dbe-eefb-4ebc-9e4b-a2a2270dc25e?action=share&source=collection_link&creator=13730481"
+	},
+	"item": [
+		{
+			"name": "Autenticação",
+			"item": [
+				{
+					"name": "Autenticação inicial",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Este script verifica a resposta e salva o token no ambiente ativo.\r",
+									"\r",
+									"pm.test(\"Response contains access_token\", function () {\r",
+									"    const responseData = pm.response.json();\r",
+									"\r",
+									"    // Verifica se a propriedade existe\r",
+									"    pm.expect(responseData.access_token).to.exist;\r",
+									"\r",
+									"    const token = responseData.access_token;\r",
+									"    \r",
+									"    // ATENÇÃO: Verifique se este nome 'accessToken' está correto e corresponde\r",
+									"    // ao nome na sua tabela de variáveis.\r",
+									"    if (token) {\r",
+									"        // A linha crucial: Salva o token na variável de ambiente.\r",
+									"        pm.environment.set(\"accessToken\", token);\r",
+									"        console.log(\"Token de Acesso salvo com sucesso!\");\r",
+									"    } else {\r",
+									"        // Este erro só aparecerá se o teste PASSAR mas o token for vazio/nulo\r",
+									"        console.error(\"Erro: access_token encontrado, mas o valor é inválido.\");\r",
+									"    }\r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {},
+								"requests": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"{{username}}\",\r\n    \"password\": \"{{password}}\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{backendUrl}}/users/login",
+							"host": [
+								"{{backendUrl}}"
+							],
+							"path": [
+								"users",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Usuários",
+			"item": [
+				{
+					"name": "Informações do usuário conectado",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{accessToken}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{backendUrl}}/users/me",
+							"host": [
+								"{{backendUrl}}"
+							],
+							"path": [
+								"users",
+								"me"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Excluir usuário",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{accessToken}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{backendUrl}}/users/5d1886d9-80c3-4630-a445-08eb950eb192",
+							"host": [
+								"{{backendUrl}}"
+							],
+							"path": [
+								"users",
+								"5d1886d9-80c3-4630-a445-08eb950eb192"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Conferência de mercadorias",
+			"item": [
+				{
+					"name": "Sincroniza Pedidos",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{accessToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"dias_retroativos\": 3\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{backendUrl}}/conferencia/sincronizar",
+							"host": [
+								"{{backendUrl}}"
+							],
+							"path": [
+								"conferencia",
+								"sincronizar"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Painel de monitoramento",
+			"item": []
+		}
+	]
+}

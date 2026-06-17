@@ -1,0 +1,112 @@
+[
+  {
+    "name": "usuarios:listarUsuarios",
+    "description": "Listagem de usuários",
+    "roles": ["administrador"]
+  },
+  {
+    "name": "usuarios:redefinirSenha",
+    "description": "Redefinição de senha",
+    "roles": ["administrador"]
+  },
+  {
+    "name": "conferencia:atualizacao",
+    "description": "Atualizar recebimento de pedido",
+    "roles": ["conferente", "administrador"]
+  },
+  {
+    "name": "comprador:listarCompradores",
+    "description": "Listar usuários com perfil comprador (Legado)",
+    "roles": ["administrador", "financeiro"]
+  },
+  {
+    "name": "usuarios:listarTodos",
+    "description": "Visualizar a lista completa de usuários",
+    "roles": ["administrador"]
+  },
+  {
+    "name": "usuarios:listarRoles",
+    "description": "Visualizar todas as roles e permissões",
+    "roles": ["administrador"]
+  },
+  {
+    "name": "usuarios:visualizar",
+    "description": "Visualizar detalhes de um usuário por ID",
+    "roles": ["administrador"]
+  },
+  {
+    "name": "usuarios:atualizar",
+    "description": "Atualizar dados de qualquer usuário por ID",
+    "roles": ["administrador"]
+  },
+  {
+    "name": "usuarios:excluir",
+    "description": "Excluir um usuário por ID",
+    "roles": ["administrador"]
+  },
+  {
+    "name": "comprador:listarAtivos",
+    "description": "Listar usuários ativos com perfil comprador",
+    "roles": ["financeiro", "administrador"]
+  },
+{
+    "name": "conferencia:atualizacao",
+    "description": "Permite iniciar a sincronização de pedidos e atualizar itens de conferência (Quant. Recebida/Status)",
+    "roles": ["conferente", "administrador"]
+  },
+  {
+    "name": "conferencia:listar_pedidos",
+    "description": "Listar pedidos de compra pendentes/divergentes",
+    "roles": ["conferente", "administrador"]
+  },
+  {
+    "name": "conferencia:visualizar_detalhes",
+    "description": "Visualizar detalhes de um item de conferência por ID",
+    "roles": ["conferente", "administrador"]
+  },
+  {
+    "name": "conferencia:listar_divergencias",
+    "description": "Listar opções de divergência disponíveis",
+    "roles": ["conferente", "administrador"]
+  },
+  {
+    "name": "solicitacoes_dia:criar",
+    "description": "Criar nova solicitação do dia (missão) para um comprador e data",
+    "roles": ["financeiro"]
+  },
+{
+    "name": "solicitacoes_dia:atualizar",
+    "description": "Permite atualizar lista de compras do dia e seus itens na tela financeira (após criada pelo financeiro)",
+    "roles": ["financeiro", "administrador"]
+  },
+{
+    "name": "solicitacoes_dia:excluir",
+    "description": "Permite remover itens da lista de compras (antes da finalização)",
+    "roles": ["financeiro", "administrador"]
+  },
+{
+    "name": "solicitacoes_dia:ler",
+    "description": "Permite acessar a tela e ler lista de compras do dia (perfil financeiro)",
+    "roles": ["financeiro", "administrador"]
+  },
+{
+    "name": "produtos:atualiza_maximo_aceitavel",
+    "description": "Permite atualizar o valor máximo aceitável",
+    "roles": ["financeiro"]
+  },
+{
+    "name": "fornecedores:atualizar",
+    "description": "Permite incluir/alterar fornecedor e forma de pagamento padrão",
+    "roles": ["financeiro", "comprador", "administrador"]
+  },
+  {
+    "name": "ceagesp:acessar",
+    "description": "Acesso ao módulo CEAGESP (compra no entreposto e baixa de fornecedor)",
+    "roles": ["comprador"]
+  },
+  {
+    "name": "compras:cancelar",
+    "description": "Cancelar registro de compra de item (volta o item a pendente)",
+    "roles": ["comprador", "financeiro", "administrador"]
+  }
+]

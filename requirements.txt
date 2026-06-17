@@ -1,0 +1,30 @@
+# Web framework
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+
+# Banco de dados
+sqlalchemy>=2.0.31
+asyncpg>=0.29.0
+alembic>=1.13.0
+
+# Autenticação e segurança
+PyJWT>=2.9.0
+cryptography>=42.0.0
+passlib[bcrypt]>=1.7.4
+python-multipart>=0.0.9
+
+# Configurações (variáveis de ambiente, secrets, etc.)
+# pydantic-settings>=2.5.2
+python-dotenv>=1.0.0
+email-validator>=2.0.0
+
+# Environment validation and configuration
+pydantic[email]>=2.0.0
+
+# JWT
+python-jose[cryptography]>=3.3.0
+
+cachetools
+
+# Fusos IANA (ZoneInfo no Windows e ambientes sem tz do SO)
+tzdata>=2024.1

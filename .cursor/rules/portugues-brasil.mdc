@@ -1,0 +1,22 @@
+---
+description: Idioma e convenções em português do Brasil (projeto ERP Sabor da Terra)
+alwaysApply: true
+---
+
+# Português do Brasil (pt-BR)
+
+## Assistente e documentação
+
+- Respostas, explicações e mensagens de commit/PR em **português do Brasil**.
+- Termos de interface comuns: **usuário**, **tela**, **salvar**, **cancelar**, **lista**, **fornecedor**, **produto** (evitar mistura com inglês desnecessária em textos voltados ao usuário).
+
+## Interface da aplicação (frontend)
+
+- Rótulos, placeholders, `helperText`, diálogos de erro e mensagens de validação em **pt-BR**.
+- Manter `index.html` com `lang="pt-BR"`.
+- Datas, horas e moeda: usar locale **`pt-BR`** (ex.: `toLocaleDateString("pt-BR")`, `currency: "BRL"`).
+- Ordenação alfabética de texto exibido: preferir **`localeCompare(..., "pt-BR")`** quando relevante.
+
+## Código
+
+- Nomes de variáveis e funções podem permanecer em inglês se for o padrão do repositório; comentários e documentação voltados à equipe em **pt-BR**, salvo APIs externas documentadas em outro idioma.
