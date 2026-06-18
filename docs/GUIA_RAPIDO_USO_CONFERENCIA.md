@@ -21,7 +21,7 @@
 1. Com permissão adequada, abra o diálogo de **administração de notificação SIDI** na mesma área de conferência.
 2. Configure **SMTP**, destinatários e teste o disparo em homologação antes do produção.
 
-## Dicas
+## Dicas:
 
 - Se a lista de pedidos não carregar, verifique login e rede; a mensagem na tela deve refletir o retorno da API quando disponível.
 - Conferência sem sessão ativa redireciona para a tela de **login**.
