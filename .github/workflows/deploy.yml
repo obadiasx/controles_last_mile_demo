@@ -99,6 +99,13 @@ jobs:
               exit 1
             fi
 
+            if ! sudo iptables -t filter -S DOCKER-FORWARD >/dev/null 2>&1; then
+              echo "Chain DOCKER-FORWARD ausente; reiniciando Docker para recriar regras de rede."
+              sudo systemctl restart docker
+              sleep 5
+              sudo iptables -t filter -S DOCKER-FORWARD >/dev/null
+            fi
+
             $COMPOSE up -d --no-build --force-recreate --remove-orphans
 
             # 3. Limpeza de arquivos temporários para poupar disco
