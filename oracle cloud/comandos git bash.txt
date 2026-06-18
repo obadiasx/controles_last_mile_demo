@@ -1,0 +1,13 @@
+conectar no tunel
+ssh -i "ssh-key-2026-06-17.key" -L 5433:127.0.0.1:5432 ubuntu@137.131.201.223 -N
+ssh -i "ssh-key-2026-06-17.key" ubuntu@137.131.201.223
+
+
+Limpar os containers
+# 1. Entre na pasta do projeto
+cd /home/ubuntu/distribuidoradealimentos
+# 2. Derrube os containers apagando os volumes antigos
+docker compose down -v
+
+
+
