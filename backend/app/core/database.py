@@ -2,6 +2,7 @@ from dotenv import load_dotenv
 load_dotenv()
 import os
 from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession, async_sessionmaker
+from sqlalchemy.engine import URL
 from sqlalchemy.orm import DeclarativeBase
 from sqlalchemy import text
 import logging
@@ -11,11 +12,38 @@ load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), "..", "..", ".en
 
 logger = logging.getLogger(__name__)
 
-DATABASE_URL = \
-    f"postgresql+asyncpg://" \
-    f"{os.getenv('DB_USER')}:{os.getenv('DB_PASSWORD')}@" \
-    f"{os.getenv('DB_HOST')}:{os.getenv('DB_PORT')}/" \
-    f"{os.getenv('DB_NAME')}"
+
+def _parse_db_port(port: str | None) -> int | None:
+    if not port:
+        return None
+    return int(port)
+
+
+def _build_database_url(
+    *,
+    user: str | None,
+    password: str | None,
+    host: str | None,
+    port: str | None,
+    database: str | None,
+) -> URL:
+    return URL.create(
+        "postgresql+asyncpg",
+        username=user,
+        password=password,
+        host=host,
+        port=_parse_db_port(port),
+        database=database,
+    )
+
+
+DATABASE_URL = _build_database_url(
+    user=os.getenv('DB_USER'),
+    password=os.getenv('DB_PASSWORD'),
+    host=os.getenv('DB_HOST'),
+    port=os.getenv('DB_PORT'),
+    database=os.getenv('DB_NAME'),
+)
 
 # Cria mecanismo assíncrono para a conexão local
 local_engine = create_async_engine(
@@ -52,11 +80,13 @@ class Base(DeclarativeBase):
 # --- Configuração do Banco de Dados de ORIGEM (ITENSC) ---
 
 # URL do banco de dados de Origem
-ORIGEM_DATABASE_URL = \
-    f"postgresql+asyncpg://" \
-    f"{os.getenv('DB_ORIGEM_USER')}:{os.getenv('DB_ORIGEM_PASSWORD')}@" \
-    f"{os.getenv('DB_ORIGEM_HOST')}:{os.getenv('DB_ORIGEM_PORT')}/" \
-    f"{os.getenv('DB_ORIGEM_NAME')}"
+ORIGEM_DATABASE_URL = _build_database_url(
+    user=os.getenv('DB_ORIGEM_USER'),
+    password=os.getenv('DB_ORIGEM_PASSWORD'),
+    host=os.getenv('DB_ORIGEM_HOST'),
+    port=os.getenv('DB_ORIGEM_PORT'),
+    database=os.getenv('DB_ORIGEM_NAME'),
+)
 
 # Engine do Banco de Dados de Origem
 origem_engine = create_async_engine(
